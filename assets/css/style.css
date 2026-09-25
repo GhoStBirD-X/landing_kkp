@@ -102,16 +102,6 @@ body {
   pointer-events: none;
 }
 
-/* Logo grayscale-to-color on hover */
-.client-logo {
-  filter: grayscale(100%);
-  opacity: .6;
-  transition: filter .3s ease, opacity .3s ease;
-}
-.client-logo:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
 
 /* Hero gradient overlay */
 .hero-overlay {
