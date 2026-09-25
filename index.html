@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PT Karya Komponen Presisi | Precision Metal Machining untuk Industri Otomotif</title>
+<meta name="description" content="PT Karya Komponen Presisi (KKP Inovasi) — manufaktur machining part &amp; painting bersertifikat ISO 9001 untuk industri otomotif, dipercaya Kayaba, FIM Piston, dan MTM.">
+<link rel="icon" href="assets/images/logo.png" type="image/png">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: { DEFAULT: '#3E2874', dark: '#241748', light: '#5A3FA0' },
+          accent: { DEFAULT: '#E5302B', dark: '#C22420' }
+        },
+        fontFamily: {
+          display: ['Poppins', 'sans-serif'],
+          sans: ['Inter', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+<!-- NAVBAR -->
+<header id="navbar" class="fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-20">
+    <a href="#home" class="group relative flex items-center gap-2 -m-2 p-2 rounded-xl transition-colors duration-300 logo-link">
+      <img src="assets/images/logo.png" alt="KKP Inovasi - PT Karya Komponen Presisi" class="h-10 w-auto transition-transform duration-300 group-hover:scale-105">
+    </a>
+    <nav class="hidden md:flex items-center gap-9 font-medium text-white/90">
+      <a href="#tentang" class="nav-link hover:text-white transition">Tentang</a>
+      <a href="#fasilitas" class="nav-link hover:text-white transition">Fasilitas</a>
+      <a href="#produk" class="nav-link hover:text-white transition">Produk</a>
+      <a href="#klien" class="nav-link hover:text-white transition">Klien</a>
+      <a href="#kontak" class="nav-link hover:text-white transition">Kontak</a>
+    </nav>
+    <a href="#kontak" class="hidden md:inline-block bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-2.5 rounded-full transition">
+      Hubungi Kami
+    </a>
+    <button id="menu-btn" aria-expanded="false" aria-label="Buka menu" class="md:hidden text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-brand-dark shadow-xl px-6 pb-6 pt-2 flex flex-col gap-4 font-medium text-white/90">
+    <a href="#tentang" class="py-1">Tentang</a>
+    <a href="#fasilitas" class="py-1">Fasilitas</a>
+    <a href="#produk" class="py-1">Produk</a>
+    <a href="#klien" class="py-1">Klien</a>
+    <a href="#kontak" class="inline-block bg-accent text-white font-semibold px-5 py-2.5 rounded-full text-center mt-2">Hubungi Kami</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="relative min-h-screen flex items-center bg-cover bg-center" style="background-image: url('assets/images/factory-front.jpg');">
+  <div class="absolute inset-0 hero-overlay"></div>
+  <div class="relative max-w-7xl mx-auto px-6 lg:px-10 pt-28 pb-20 w-full">
+    <p class="reveal in-view text-accent font-semibold tracking-widest uppercase text-sm mb-4">Precision Metal Machining · Sejak 2014</p>
+    <h1 class="reveal in-view font-display font-bold text-white text-4xl sm:text-5xl lg:text-6xl leading-tight max-w-3xl">
+      Mitra Presisi untuk<br> Industri Otomotif Anda
+    </h1>
+    <p class="reveal in-view text-white/80 text-lg max-w-xl mt-6 leading-relaxed" style="transition-delay:.1s">
+      PT Karya Komponen Presisi menghadirkan jasa machining part &amp; painting berkualitas tinggi dengan standar ISO 9001, dipercaya oleh produsen komponen otomotif terkemuka di Indonesia.
+    </p>
+    <div class="reveal in-view flex flex-wrap gap-4 mt-10" style="transition-delay:.2s">
+      <a href="#kontak" class="bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-3.5 rounded-full transition">Hubungi Kami</a>
+      <a href="#produk" class="border border-white/40 hover:border-white text-white font-semibold px-8 py-3.5 rounded-full transition">Lihat Produk</a>
+    </div>
+  </div>
+  <a href="#tentang" aria-label="Scroll ke bawah" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/70 hover:text-white animate-bounce">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </a>
+</section>
+
+<!-- STATS -->
+<section class="bg-brand text-white">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <div class="reveal">
+      <div class="font-display font-bold text-3xl md:text-4xl"><span class="counter" data-target="2014">0</span></div>
+      <p class="text-white/70 text-sm mt-1">Berdiri Sejak</p>
+    </div>
+    <div class="reveal" style="transition-delay:.05s">
+      <div class="font-display font-bold text-3xl md:text-4xl"><span class="counter" data-target="80" data-suffix="+">0</span></div>
+      <p class="text-white/70 text-sm mt-1">Karyawan</p>
+    </div>
+    <div class="reveal" style="transition-delay:.1s">
+      <div class="font-display font-bold text-3xl md:text-4xl"><span class="counter" data-target="20" data-suffix=" Unit">0</span></div>
+      <p class="text-white/70 text-sm mt-1">Mesin Produksi</p>
+    </div>
+    <div class="reveal" style="transition-delay:.15s">
+      <div class="font-display font-bold text-3xl md:text-4xl"><span class="counter" data-target="1452" data-suffix=" m²">0</span></div>
+      <p class="text-white/70 text-sm mt-1">Luas Area Pabrik</p>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang" class="py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-14 items-center">
+    <div class="reveal">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Tentang Kami</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl text-brand-dark mb-6">PT Karya Komponen Presisi</h2>
+      <p class="text-slate-600 leading-relaxed mb-4">
+        Berdiri pada 22 Desember 2014 di Jababeka Industrial Estate, PT Karya Komponen Presisi didirikan untuk memenuhi kebutuhan industri otomotif sebagai perusahaan manufaktur metal cutting yang menghasilkan suku cadang otomotif berkualitas dengan harga bersaing.
+      </p>
+      <p class="text-slate-600 leading-relaxed mb-8">
+        Pada tahun 2018, perusahaan pindah ke Kawasan Greenland Boulevard, Cikarang Pusat — hanya 1 KM dari pusat pemerintahan Kabupaten Bekasi — untuk mendukung kapasitas produksi yang terus bertumbuh.
+      </p>
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+          <h3 class="font-display font-semibold text-brand-dark mb-2">Visi</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Menjadi pemasok pilihan industri otomotif.</p>
+        </div>
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+          <h3 class="font-display font-semibold text-brand-dark mb-2">Produk Utama</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Machining Part &amp; Painting untuk komponen otomotif.</p>
+        </div>
+      </div>
+    </div>
+    <div class="reveal grid grid-cols-2 gap-4" style="transition-delay:.1s">
+      <img src="assets/images/factory-front.jpg" alt="Fasad gedung pabrik PT Karya Komponen Presisi" class="rounded-2xl w-full h-full object-cover row-span-2 shadow-lg">
+      <img src="assets/images/machine-01.jpg" alt="Mesin machining center" class="rounded-2xl w-full h-44 object-cover shadow-lg">
+      <img src="assets/images/lab-cmm-operator.jpg" alt="Operator lab quality memeriksa komponen" class="rounded-2xl w-full h-44 object-cover shadow-lg">
+    </div>
+  </div>
+</section>
+
+<!-- MISI -->
+<section class="py-20 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="reveal text-center max-w-2xl mx-auto mb-14">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Misi Kami</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl text-brand-dark">Menjadi perusahaan manufaktur yang handal serta memberikan nilai tambah bagi stakeholder</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="reveal card-lift bg-white rounded-2xl p-7 border border-slate-100 shadow-sm">
+        <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center font-display font-bold mb-4">01</div>
+        <p class="text-slate-600 text-sm leading-relaxed">Membangun SDM yang berkualitas dan inovatif untuk tumbuh, bersaing, dan berkembang.</p>
+      </div>
+      <div class="reveal card-lift bg-white rounded-2xl p-7 border border-slate-100 shadow-sm" style="transition-delay:.05s">
+        <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center font-display font-bold mb-4">02</div>
+        <p class="text-slate-600 text-sm leading-relaxed">Senantiasa meningkatkan produktivitas dan efisiensi.</p>
+      </div>
+      <div class="reveal card-lift bg-white rounded-2xl p-7 border border-slate-100 shadow-sm" style="transition-delay:.1s">
+        <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center font-display font-bold mb-4">03</div>
+        <p class="text-slate-600 text-sm leading-relaxed">Menjalin komunikasi yang harmonis, baik internal maupun eksternal.</p>
+      </div>
+      <div class="reveal card-lift bg-white rounded-2xl p-7 border border-slate-100 shadow-sm" style="transition-delay:.15s">
+        <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center font-display font-bold mb-4">04</div>
+        <p class="text-slate-600 text-sm leading-relaxed">Melestarikan lingkungan hidup yang sehat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FASILITAS -->
+<section id="fasilitas" class="py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="reveal max-w-2xl mb-14">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Fasilitas Produksi</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl text-brand-dark mb-4">Mesin &amp; Laboratorium Quality Control</h2>
+      <p class="text-slate-600 leading-relaxed">20 unit machining center (Doosan, Shenyang, Neway) didukung laboratorium quality control lengkap dengan CMM, Contracer, dan Tool Pre Setter untuk menjamin presisi setiap komponen.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="fasilitas" data-lightbox>
+        <img src="assets/images/machine-01.jpg" alt="Machining Center Neway" class="w-full h-64 object-cover">
+      </div>
+      <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="fasilitas" data-lightbox style="transition-delay:.05s">
+        <img src="assets/images/machine-02.jpg" alt="Machining Center sedang beroperasi" class="w-full h-64 object-cover">
+      </div>
+      <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="fasilitas" data-lightbox style="transition-delay:.1s">
+        <img src="assets/images/machine-03.jpg" alt="Area produksi machining" class="w-full h-64 object-cover">
+      </div>
+      <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="fasilitas" data-lightbox style="transition-delay:.15s">
+        <img src="assets/images/lab-cmm-operator.jpg" alt="Operator mengoperasikan CMM di lab quality" class="w-full h-64 object-cover">
+      </div>
+      <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="fasilitas" data-lightbox style="transition-delay:.2s">
+        <img src="assets/images/lab-cmm-device.jpg" alt="Alat ukur presisi DTP-1540" class="w-full h-64 object-cover">
+      </div>
+      <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="fasilitas" data-lightbox style="transition-delay:.25s">
+        <img src="assets/images/lab-tool-presetter.jpg" alt="Tool Pre Setter Tool Master Line" class="w-full h-64 object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUK -->
+<section id="produk" class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="reveal max-w-2xl mb-14">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Produk Kami</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl text-brand-dark mb-4">Komponen Presisi untuk Kendaraan Roda Dua</h2>
+      <p class="text-slate-600 leading-relaxed">Komponen hasil machining kami — seperti steering yoke dan bracket — menjadi bagian dari kendaraan roda dua terkemuka di Indonesia.</p>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox>
+        <img src="assets/images/product-01.jpg" alt="Komponen machining presisi 01" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.03s">
+        <img src="assets/images/product-02.jpg" alt="Komponen machining presisi 02" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.06s">
+        <img src="assets/images/product-03.jpg" alt="Komponen machining presisi 03" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.09s">
+        <img src="assets/images/product-04.jpg" alt="Komponen machining presisi 04" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.12s">
+        <img src="assets/images/product-05.jpg" alt="Komponen machining presisi 05" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox>
+        <img src="assets/images/product-06.jpg" alt="Komponen machining presisi 06" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.03s">
+        <img src="assets/images/product-07.jpg" alt="Komponen machining presisi 07" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.06s">
+        <img src="assets/images/product-08.jpg" alt="Komponen machining presisi 08" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.09s">
+        <img src="assets/images/product-09.jpg" alt="Komponen machining presisi 09" class="w-full h-40 object-contain p-4">
+      </div>
+      <div class="reveal gallery-item bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100" data-gallery="produk" data-lightbox style="transition-delay:.12s">
+        <img src="assets/images/product-10.jpg" alt="Komponen machining presisi 10" class="w-full h-40 object-contain p-4">
+      </div>
+    </div>
+
+    <!-- Aplikasi produk -->
+    <div class="reveal mt-16 flex items-center gap-8 justify-center flex-wrap opacity-90">
+      <img src="assets/images/brand-yamaha.png" alt="Yamaha" class="h-9 w-auto">
+      <img src="assets/images/brand-honda.png" alt="Honda" class="h-9 w-auto">
+    </div>
+    <div class="grid grid-cols-3 sm:grid-cols-5 gap-4 mt-8">
+      <img src="assets/images/app-pcx.jpg" alt="Honda PCX" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain">
+      <img src="assets/images/app-r15-1.jpg" alt="Yamaha R15" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.03s">
+      <img src="assets/images/app-r25.jpg" alt="Yamaha R25" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.06s">
+      <img src="assets/images/app-nmax.jpg" alt="Yamaha NMAX" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.09s">
+      <img src="assets/images/app-vixion.jpg" alt="Yamaha Vixion" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.12s">
+      <img src="assets/images/app-xmax.jpg" alt="Yamaha XMAX" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain">
+      <img src="assets/images/app-wr155.jpg" alt="Yamaha WR155" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.03s">
+      <img src="assets/images/app-grandfilano.jpg" alt="Yamaha Grand Filano" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.06s">
+      <img src="assets/images/app-r15-2.jpg" alt="Yamaha R15" class="reveal rounded-xl border border-slate-100 bg-white p-2 h-24 w-full object-contain" style="transition-delay:.09s">
+    </div>
+  </div>
+</section>
+
+<!-- SALES GROWTH -->
+<section class="py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-14 items-center">
+    <div class="reveal order-2 lg:order-1">
+      <img src="assets/images/sales-growth-chart.jpg" alt="Grafik pertumbuhan penjualan 2020-2025" class="rounded-2xl shadow-lg border border-slate-100">
+    </div>
+    <div class="reveal order-1 lg:order-2" style="transition-delay:.1s">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Pertumbuhan Bisnis</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl text-brand-dark mb-6">Tren Penjualan yang Terus Meningkat</h2>
+      <p class="text-slate-600 leading-relaxed">Kepercayaan klien terhadap kualitas dan konsistensi produk kami tercermin dari pertumbuhan penjualan yang stabil sejak tahun 2020 hingga 2025, didukung oleh kolaborasi jangka panjang dengan Kayaba, FIM, WIKA, dan MTM.</p>
+    </div>
+  </div>
+</section>
+
+<!-- KLIEN & SERTIFIKASI -->
+<section id="klien" class="py-20 bg-brand-dark text-white">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="reveal text-center max-w-xl mx-auto mb-12">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Dipercaya Oleh</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl">Klien &amp; Mitra Kami</h2>
+    </div>
+    <div class="reveal flex flex-wrap items-center justify-center gap-10 sm:gap-16 mb-16">
+      <img src="assets/images/client-kyb.png" alt="PT Kayaba Indonesia" class="client-logo h-10 sm:h-12 w-auto">
+      <img src="assets/images/client-fim-piston.png" alt="PT Federal Izumi Mfg" class="client-logo h-14 sm:h-16 w-auto">
+      <img src="assets/images/client-mtm.png" alt="PT Menara Terus Makmur" class="client-logo h-9 sm:h-11 w-auto">
+    </div>
+    <div class="reveal flex items-center justify-center gap-6 bg-white/5 rounded-2xl p-6 max-w-lg mx-auto">
+      <img src="assets/images/iso-9001-badge.png" alt="Sertifikasi ISO 9001" class="h-14 w-auto">
+      <div class="text-left">
+        <p class="font-display font-semibold">Bersertifikat ISO 9001</p>
+        <p class="text-white/60 text-sm">No. Sertifikat 18110200889K002</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-14">
+    <div class="reveal">
+      <p class="text-accent font-semibold tracking-widest uppercase text-sm mb-3">Kontak</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl text-brand-dark mb-6">Mari Berdiskusi Kebutuhan Anda</h2>
+      <p class="text-slate-600 leading-relaxed mb-8">Tim kami siap membantu menjawab kebutuhan machining part &amp; painting untuk komponen otomotif Anda.</p>
+      <div class="space-y-5">
+        <div class="flex gap-4">
+          <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+          </div>
+          <div>
+            <p class="font-semibold text-brand-dark">Alamat</p>
+            <p class="text-slate-600 text-sm leading-relaxed">Jl. Greenland Boulevard, Blok AG No. 1 &amp; 2, Sukamahi, Kec. Cikarang Pusat, Kabupaten Bekasi, Jawa Barat 17530</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+          </div>
+          <div>
+            <p class="font-semibold text-brand-dark">Email</p>
+            <a href="mailto:kkp@karyakomponen.com" class="text-slate-600 text-sm hover:text-accent transition">kkp@karyakomponen.com</a>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-11 h-11 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
+          </div>
+          <div>
+            <p class="font-semibold text-brand-dark">Website</p>
+            <a href="https://www.karyakomponen.com" target="_blank" rel="noopener" class="text-slate-600 text-sm hover:text-accent transition">www.karyakomponen.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form class="reveal bg-slate-50 rounded-2xl p-8 border border-slate-100 space-y-4" style="transition-delay:.1s" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah tercatat.');">
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1.5">Nama</label>
+        <input type="text" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1.5">Email / No. Telepon</label>
+        <input type="text" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1.5">Pesan</label>
+        <textarea rows="4" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-lg transition">Kirim Pesan</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-brand-dark text-white/70">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 py-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div>
+      <img src="assets/images/logo.png" alt="KKP Inovasi" class="h-10 w-auto mb-4">
+      <p class="text-sm leading-relaxed max-w-xs">Precision metal machining &amp; painting untuk komponen industri otomotif, bersertifikat ISO 9001.</p>
+    </div>
+    <div>
+      <p class="font-display font-semibold text-white mb-3">Navigasi</p>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#tentang" class="hover:text-white transition">Tentang</a></li>
+        <li><a href="#fasilitas" class="hover:text-white transition">Fasilitas</a></li>
+        <li><a href="#produk" class="hover:text-white transition">Produk</a></li>
+        <li><a href="#klien" class="hover:text-white transition">Klien</a></li>
+        <li><a href="#kontak" class="hover:text-white transition">Kontak</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-display font-semibold text-white mb-3">Kontak</p>
+      <p class="text-sm leading-relaxed mb-2">Jl. Greenland Boulevard, Blok AG No. 1 &amp; 2, Cikarang Pusat, Kab. Bekasi 17530</p>
+      <p class="text-sm">kkp@karyakomponen.com</p>
+    </div>
+  </div>
+  <div class="border-t border-white/10 py-5 text-center text-xs">
+    &copy; <span id="year"></span> PT Karya Komponen Presisi. Seluruh hak cipta dilindungi.
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="hidden hidden-lb fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-6">
+  <button id="lightbox-close" aria-label="Tutup" class="absolute top-6 right-6 text-white/80 hover:text-white z-10">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+  </button>
+  <button id="lightbox-prev" aria-label="Gambar sebelumnya" class="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 text-white/80 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-2 sm:p-3 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-7 sm:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
+  </button>
+  <button id="lightbox-next" aria-label="Gambar berikutnya" class="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 text-white/80 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-2 sm:p-3 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-7 sm:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+  </button>
+  <figure class="max-w-4xl w-full">
+    <img id="lightbox-img" src="" alt="" class="w-full max-h-[75vh] object-contain rounded-lg">
+    <figcaption id="lightbox-caption" class="text-white/70 text-center text-sm mt-4"></figcaption>
+    <p id="lightbox-counter" class="text-white/40 text-center text-xs mt-1"></p>
+  </figure>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand: #3E2874;
+  --brand-dark: #241748;
+  --accent: #E5302B;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #1f2430;
+}
+
+.font-display {
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+/* Sticky nav transition */
+#navbar {
+  transition: background-color .3s ease, box-shadow .3s ease, padding .3s ease;
+}
+#navbar.scrolled {
+  background-color: rgba(255,255,255,0.96);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  backdrop-filter: blur(8px);
+}
+#navbar.scrolled nav a,
+#navbar.scrolled #menu-btn {
+  color: var(--brand-dark);
+}
+#navbar.scrolled nav a:hover {
+  color: var(--accent);
+}
+
+/* Logo hover chip: soft light glow on dark hero, soft accent tint once scrolled */
+.logo-link:hover {
+  background-color: rgba(255,255,255,0.14);
+}
+#navbar.scrolled .logo-link:hover {
+  background-color: rgba(229,48,43,0.1);
+}
+
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: var(--accent);
+  transition: width .25s ease;
+}
+.nav-link:hover::after { width: 100%; }
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card hover lift */
+.card-lift {
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.card-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.18);
+}
+
+/* Gallery item */
+.gallery-item {
+  cursor: zoom-in;
+  overflow: hidden;
+}
+.gallery-item img {
+  transition: transform .5s ease;
+}
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Lightbox */
+#lightbox {
+  transition: opacity .25s ease;
+}
+#lightbox.hidden-lb {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Logo grayscale-to-color on hover */
+.client-logo {
+  filter: grayscale(100%);
+  opacity: .6;
+  transition: filter .3s ease, opacity .3s ease;
+}
+.client-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Hero gradient overlay */
+.hero-overlay {
+  background: linear-gradient(115deg, rgba(36,23,72,0.92) 0%, rgba(36,23,72,0.78) 40%, rgba(36,23,72,0.55) 100%);
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
