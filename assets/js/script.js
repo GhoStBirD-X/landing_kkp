@@ -139,3 +139,43 @@ document.addEventListener('keydown', (e) => {
 
 // Current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Contact form -> Formspree (AJAX, no page reload)
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+  const submitBtn = contactForm.querySelector('button[type="submit"]');
+  const status = document.getElementById('cf-status');
+
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Mengirim...';
+    status.textContent = '';
+    status.className = 'text-sm text-center';
+
+    try {
+      const response = await fetch(contactForm.action, {
+        method: 'POST',
+        body: new FormData(contactForm),
+        headers: { Accept: 'application/json' }
+      });
+
+      if (response.ok) {
+        contactForm.reset();
+        status.textContent = 'Terima kasih, pesan Anda sudah terkirim. Kami akan segera menghubungi Anda.';
+        status.classList.add('text-emerald-600');
+      } else {
+        const data = await response.json().catch(() => null);
+        const detail = data?.errors?.map(err => err.message).join(', ');
+        status.textContent = detail || 'Pesan gagal terkirim. Silakan coba lagi atau hubungi kami lewat email.';
+        status.classList.add('text-accent');
+      }
+    } catch {
+      status.textContent = 'Pesan gagal terkirim. Periksa koneksi internet Anda dan coba lagi.';
+      status.classList.add('text-accent');
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Kirim Pesan';
+    }
+  });
+}

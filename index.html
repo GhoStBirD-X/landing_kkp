@@ -295,20 +295,21 @@
         </div>
       </div>
     </div>
-    <form class="reveal bg-slate-50 rounded-2xl p-8 border border-slate-100 space-y-4" style="transition-delay:.1s" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah tercatat.');">
+    <form id="contact-form" action="https://formspree.io/f/xaenblry" method="POST" class="reveal bg-slate-50 rounded-2xl p-8 border border-slate-100 space-y-4" style="transition-delay:.1s">
       <div>
-        <label class="block text-sm font-medium text-slate-700 mb-1.5">Nama</label>
-        <input type="text" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent">
+        <label for="cf-name" class="block text-sm font-medium text-slate-700 mb-1.5">Nama</label>
+        <input id="cf-name" name="name" type="text" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent">
       </div>
       <div>
-        <label class="block text-sm font-medium text-slate-700 mb-1.5">Email / No. Telepon</label>
-        <input type="text" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent">
+        <label for="cf-contact" class="block text-sm font-medium text-slate-700 mb-1.5">Email / No. Telepon</label>
+        <input id="cf-contact" name="email" type="text" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent">
       </div>
       <div>
-        <label class="block text-sm font-medium text-slate-700 mb-1.5">Pesan</label>
-        <textarea rows="4" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent"></textarea>
+        <label for="cf-message" class="block text-sm font-medium text-slate-700 mb-1.5">Pesan</label>
+        <textarea id="cf-message" name="message" rows="4" required class="w-full rounded-lg border border-slate-200 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent"></textarea>
       </div>
-      <button type="submit" class="w-full bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-lg transition">Kirim Pesan</button>
+      <button type="submit" class="w-full bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-lg transition disabled:opacity-60 disabled:cursor-not-allowed">Kirim Pesan</button>
+      <p id="cf-status" class="text-sm text-center" role="status" aria-live="polite"></p>
     </form>
   </div>
 </section>
