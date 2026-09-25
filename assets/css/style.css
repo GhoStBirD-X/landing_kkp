@@ -3,7 +3,8 @@
 :root {
   --brand: #3E2874;
   --brand-dark: #241748;
-  --accent: #E5302B;
+  --accent: #C22420;
+  --accent-light: #FF6259;
 }
 
 html { scroll-behavior: smooth; }
@@ -39,7 +40,7 @@ body {
   background-color: rgba(255,255,255,0.14);
 }
 #navbar.scrolled .logo-link:hover {
-  background-color: rgba(229,48,43,0.1);
+  background-color: rgba(194,36,32,0.1);
 }
 
 .nav-link {
@@ -80,6 +81,10 @@ body {
 .gallery-item {
   cursor: zoom-in;
   overflow: hidden;
+}
+.gallery-item:focus-visible {
+  outline: 3px solid var(--accent-light);
+  outline-offset: 2px;
 }
 .gallery-item img {
   transition: transform .5s ease;

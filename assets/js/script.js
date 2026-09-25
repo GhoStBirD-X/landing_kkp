@@ -92,9 +92,20 @@ const openLightbox = (group, index) => {
 };
 
 document.querySelectorAll('[data-lightbox]').forEach(item => {
-  item.addEventListener('click', () => {
+  const openThis = () => {
     const group = item.dataset.gallery || 'default';
     openLightbox(group, galleries[group].indexOf(item));
+  };
+  item.setAttribute('tabindex', '0');
+  item.setAttribute('role', 'button');
+  const label = item.querySelector('img')?.alt;
+  if (label) item.setAttribute('aria-label', `Lihat foto: ${label}`);
+  item.addEventListener('click', openThis);
+  item.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      openThis();
+    }
   });
 });
 
