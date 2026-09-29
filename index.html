@@ -229,10 +229,11 @@
       <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Komponen Presisi untuk Kendaraan Roda Dua</h2>
       <p class="text-white/70 leading-relaxed">Komponen hasil machining kami, seperti Under Bracket, Axle Bracket dan Cylinder Guide, menjadi bagian dari kendaraan roda dua terkemuka di Indonesia.</p>
     </div>
-    <div class="reveal flex flex-wrap gap-2.5 mb-6" style="transition-delay:.05s">
-      <span class="badge-tech">Under Bracket</span>
-      <span class="badge-tech">Axle Bracket</span>
-      <span class="badge-tech">Cylinder Guide</span>
+    <div class="reveal flex flex-wrap gap-2.5 mb-6" style="transition-delay:.05s" role="group" aria-label="Filter kategori produk">
+      <button type="button" class="badge-tech is-active" data-filter="all" aria-pressed="true">Semua</button>
+      <button type="button" class="badge-tech" data-filter="under-bracket" aria-pressed="false">Under Bracket</button>
+      <button type="button" class="badge-tech" data-filter="axle-bracket" aria-pressed="false">Axle Bracket</button>
+      <button type="button" class="badge-tech" data-filter="cylinder-guide" aria-pressed="false">Cylinder Guide</button>
     </div>
     <div class="reveal flex items-center gap-3 mb-10" style="transition-delay:.08s">
       <img src="assets/images/iso-9001-badge.png" alt="Sertifikasi ISO 9001" class="h-8 w-auto shrink-0">
@@ -242,7 +243,7 @@
 
   <div class="reveal relative" style="transition-delay:.1s">
     <div id="produk-track" class="produk-track">
-      <div class="produk-card">
+      <div class="produk-card" data-tag="axle-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -253,7 +254,7 @@
         </div>
         <p class="produk-card-tag">Axle Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="axle-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -264,7 +265,7 @@
         </div>
         <p class="produk-card-tag">Axle Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="cylinder-guide">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -275,7 +276,7 @@
         </div>
         <p class="produk-card-tag">Cylinder Guide</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="cylinder-guide">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -286,7 +287,7 @@
         </div>
         <p class="produk-card-tag">Cylinder Guide</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="under-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -297,7 +298,7 @@
         </div>
         <p class="produk-card-tag">Under Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="under-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -308,7 +309,7 @@
         </div>
         <p class="produk-card-tag">Under Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="under-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -319,7 +320,7 @@
         </div>
         <p class="produk-card-tag">Under Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="under-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -330,7 +331,7 @@
         </div>
         <p class="produk-card-tag">Under Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="axle-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>
@@ -341,7 +342,7 @@
         </div>
         <p class="produk-card-tag">Axle Bracket</p>
       </div>
-      <div class="produk-card">
+      <div class="produk-card" data-tag="axle-bracket">
         <div class="produk-card-frame gallery-item" data-gallery="produk" data-lightbox>
           <span class="produk-card-corner produk-card-corner-tl"></span>
           <span class="produk-card-corner produk-card-corner-tr"></span>

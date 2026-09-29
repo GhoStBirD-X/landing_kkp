@@ -136,6 +136,9 @@ body {
 .badge-tech {
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
+  appearance: none;
+  font: inherit;
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,.16);
   background: rgba(255,255,255,.04);
@@ -143,7 +146,24 @@ body {
   font-size: .75rem;
   font-weight: 600;
   color: rgba(255,255,255,.8);
+  cursor: pointer;
+  transition: border-color .2s ease, background-color .2s ease, color .2s ease;
 }
+.badge-tech:hover {
+  border-color: rgba(255,255,255,.32);
+  color: #fff;
+}
+.badge-tech:focus-visible {
+  outline: 2px solid var(--accent-light);
+  outline-offset: 2px;
+}
+.badge-tech.is-active {
+  border-color: var(--accent-light);
+  background: rgba(255,98,89,.14);
+  color: #fff;
+}
+
+.produk-card.is-filtered-out { display: none; }
 
 /* Rolling track: continuous auto-scroll (JS), pauses on hover/touch, drag to browse on desktop */
 .produk-track {

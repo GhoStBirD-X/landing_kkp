@@ -209,6 +209,24 @@ if (produkTrack) {
   };
   produkTrack.addEventListener('pointerup', endProdukDrag);
   produkTrack.addEventListener('pointercancel', endProdukDrag);
+
+  // Category filter: click a badge to show only matching cards (originals
+  // and their clones share data-tag), "Semua" clears the filter.
+  const produkFilters = document.querySelectorAll('[data-filter]');
+  produkFilters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+      produkFilters.forEach(b => {
+        const active = b === btn;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', String(active));
+      });
+      Array.from(produkTrack.children).forEach(card => {
+        card.classList.toggle('is-filtered-out', filter !== 'all' && card.dataset.tag !== filter);
+      });
+      produkTrack.scrollLeft = 0;
+    });
+  });
 }
 
 // Current year in footer
