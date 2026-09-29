@@ -137,6 +137,80 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') showPrev();
 });
 
+// Produk catalog: continuous rolling track (conveyor-line effect), pauses on
+// hover/touch so it never fights the lightbox click, and supports mouse drag.
+const produkTrack = document.getElementById('produk-track');
+if (produkTrack) {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Duplicate the set once so the loop can wrap seamlessly; clones are
+  // decorative filler, not separate lightbox entries.
+  Array.from(produkTrack.children).forEach(card => {
+    const clone = card.cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true');
+    const frame = clone.querySelector('[data-lightbox]');
+    if (frame) {
+      frame.removeAttribute('data-lightbox');
+      frame.removeAttribute('data-gallery');
+      frame.removeAttribute('tabindex');
+      frame.removeAttribute('role');
+      frame.removeAttribute('aria-label');
+    }
+    produkTrack.appendChild(clone);
+  });
+
+  let rolling = !reducedMotion;
+  let dragging = false;
+  let startX = 0;
+  let startScroll = 0;
+
+  const wrapScroll = () => {
+    const half = produkTrack.scrollWidth / 2;
+    if (produkTrack.scrollLeft >= half) produkTrack.scrollLeft -= half;
+    else if (produkTrack.scrollLeft < 0) produkTrack.scrollLeft += half;
+  };
+
+  const step = () => {
+    if (rolling && !dragging) {
+      produkTrack.scrollLeft += 0.55;
+      wrapScroll();
+    }
+    requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+
+  produkTrack.addEventListener('mouseenter', () => { rolling = false; });
+  produkTrack.addEventListener('mouseleave', () => {
+    rolling = !reducedMotion;
+    dragging = false;
+    produkTrack.classList.remove('is-dragging');
+  });
+  produkTrack.addEventListener('touchstart', () => { rolling = false; }, { passive: true });
+  produkTrack.addEventListener('touchend', () => { rolling = !reducedMotion; }, { passive: true });
+
+  // Mouse-only drag; touch keeps native panning inside the scroll container.
+  produkTrack.addEventListener('pointerdown', (e) => {
+    if (e.pointerType !== 'mouse') return;
+    dragging = true;
+    produkTrack.classList.add('is-dragging');
+    startX = e.clientX;
+    startScroll = produkTrack.scrollLeft;
+    produkTrack.setPointerCapture(e.pointerId);
+  });
+  produkTrack.addEventListener('pointermove', (e) => {
+    if (!dragging || e.pointerType !== 'mouse') return;
+    produkTrack.scrollLeft = startScroll - (e.clientX - startX);
+  });
+  const endProdukDrag = (e) => {
+    if (e.pointerType !== 'mouse') return;
+    dragging = false;
+    produkTrack.classList.remove('is-dragging');
+    wrapScroll();
+  };
+  produkTrack.addEventListener('pointerup', endProdukDrag);
+  produkTrack.addEventListener('pointercancel', endProdukDrag);
+}
+
 // Current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 

@@ -112,3 +112,139 @@ body {
   background: var(--accent);
   color: white;
 }
+
+/* PRODUK — precision-engineering catalog: dark variant of the brand purple
+   (no new hue), a faint blueprint grid nodding to CAD/spec drawings, and
+   HUD corner brackets echoing the CMM measurement gear shown in Fasilitas. */
+.produk-section {
+  background: radial-gradient(130% 90% at 12% 0%, #201148 0%, #120a2c 45%, #08050f 100%);
+}
+
+.produk-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.5) 1px, transparent 1px);
+  background-size: 56px 56px;
+  opacity: .05;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+          mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+  pointer-events: none;
+}
+
+.badge-tech {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(255,255,255,.04);
+  padding: .4rem 1rem;
+  font-size: .75rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.8);
+}
+
+/* Rolling track: continuous auto-scroll (JS), pauses on hover/touch, drag to browse on desktop */
+.produk-track {
+  position: relative;
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  padding: .5rem 1.5rem 1.75rem;
+  cursor: grab;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+@media (min-width: 1024px) {
+  .produk-track { padding-left: 2.5rem; padding-right: 2.5rem; }
+}
+.produk-track::-webkit-scrollbar { display: none; }
+.produk-track.is-dragging { cursor: grabbing; }
+
+.produk-fade {
+  position: absolute;
+  top: 0;
+  bottom: 28px;
+  width: 40px;
+  pointer-events: none;
+  z-index: 2;
+}
+@media (min-width: 640px) {
+  .produk-fade { width: 72px; }
+}
+.produk-fade-left { left: 0; background: linear-gradient(90deg, #08050f, transparent); }
+.produk-fade-right { right: 0; background: linear-gradient(270deg, #08050f, transparent); }
+
+.produk-card {
+  flex: 0 0 auto;
+  width: 168px;
+}
+@media (min-width: 640px) {
+  .produk-card { width: 220px; }
+}
+
+.produk-card-frame {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 14px;
+  background: linear-gradient(160deg, rgba(255,255,255,.06), rgba(255,255,255,.015));
+  border: 1px solid rgba(255,255,255,.12);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
+}
+@media (min-width: 640px) {
+  .produk-card-frame { padding: 1.75rem; }
+}
+.produk-card-frame:hover,
+.produk-card-frame:focus-visible {
+  transform: translateY(-4px);
+  border-color: rgba(255,98,89,.55);
+  box-shadow: 0 0 0 1px rgba(255,98,89,.25), 0 24px 40px -18px rgba(0,0,0,.65);
+}
+.produk-card-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(0,0,0,.4));
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.produk-card-index {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-family: ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: .65rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.62);
+}
+
+.produk-card-corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255,255,255,.2);
+  transition: border-color .35s ease;
+}
+.produk-card-frame:hover .produk-card-corner,
+.produk-card-frame:focus-visible .produk-card-corner {
+  border-color: rgba(255,98,89,.75);
+}
+.produk-card-corner-tl { top: 8px; left: 8px; border-right: none; border-bottom: none; border-top-left-radius: 4px; }
+.produk-card-corner-tr { top: 8px; right: 8px; border-left: none; border-bottom: none; border-top-right-radius: 4px; }
+.produk-card-corner-bl { bottom: 8px; left: 8px; border-right: none; border-top: none; border-bottom-left-radius: 4px; }
+.produk-card-corner-br { bottom: 8px; right: 8px; border-left: none; border-top: none; border-bottom-right-radius: 4px; }
+
+.produk-card-tag {
+  margin-top: .75rem;
+  font-family: ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: .6875rem;
+  letter-spacing: .04em;
+  color: rgba(255,255,255,.6);
+  text-align: center;
+}
