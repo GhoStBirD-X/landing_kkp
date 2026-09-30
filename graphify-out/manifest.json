@@ -1,0 +1,386 @@
+{
+  ".agents/skills/antislop-human/contrast-check.py": {
+    "mtime": 1790305143.1189866,
+    "seen": 1790782247.7082326,
+    "ast_hash": "eced9bf566c7fd1d30fd2f1871446c84",
+    "semantic_hash": "eced9bf566c7fd1d30fd2f1871446c84"
+  },
+  ".agents/skills/antislop-human/contrast-mcp.py": {
+    "mtime": 1790305143.1190088,
+    "seen": 1790782247.708236,
+    "ast_hash": "92f43d22cd6676e4b0947dfa88b1c52b",
+    "semantic_hash": "92f43d22cd6676e4b0947dfa88b1c52b"
+  },
+  ".claude/settings.json": {
+    "mtime": 1790781740.0347455,
+    "seen": 1790782247.7082376,
+    "ast_hash": "3b541b9935fcf0831355da956f897645",
+    "semantic_hash": "3b541b9935fcf0831355da956f897645"
+  },
+  ".claude/skills/antislop-human/contrast-check.py": {
+    "mtime": 1790305143.1182535,
+    "seen": 1790782247.7082384,
+    "ast_hash": "eced9bf566c7fd1d30fd2f1871446c84",
+    "semantic_hash": "eced9bf566c7fd1d30fd2f1871446c84"
+  },
+  ".claude/skills/antislop-human/contrast-mcp.py": {
+    "mtime": 1790305143.1182945,
+    "seen": 1790782247.7082388,
+    "ast_hash": "92f43d22cd6676e4b0947dfa88b1c52b",
+    "semantic_hash": "92f43d22cd6676e4b0947dfa88b1c52b"
+  },
+  "assets/js/script.js": {
+    "mtime": 1790670132.2749867,
+    "seen": 1790782247.7082393,
+    "ast_hash": "fc104fc45d671c88a0629f81f66e483f",
+    "semantic_hash": "fc104fc45d671c88a0629f81f66e483f"
+  },
+  ".agents/skills/antislop-code/SKILL.md": {
+    "mtime": 1790305143.119133,
+    "seen": 1790782247.70824,
+    "ast_hash": "5b8df92fc122a1655c8d3d947bbbbe3b",
+    "semantic_hash": "5b8df92fc122a1655c8d3d947bbbbe3b"
+  },
+  ".agents/skills/antislop-copywriting/SKILL.md": {
+    "mtime": 1790305143.1188843,
+    "seen": 1790782247.7082407,
+    "ast_hash": "35c54e34c1d99c848658e7eaf0d95693",
+    "semantic_hash": "35c54e34c1d99c848658e7eaf0d95693"
+  },
+  ".agents/skills/antislop-human/SKILL.md": {
+    "mtime": 1790305143.1189623,
+    "seen": 1790782247.7082412,
+    "ast_hash": "75ec299697211e6f3a690bc790c34597",
+    "semantic_hash": "75ec299697211e6f3a690bc790c34597"
+  },
+  ".agents/skills/antislop-layoutmobile/SKILL.md": {
+    "mtime": 1790305143.1190739,
+    "seen": 1790782247.7082417,
+    "ast_hash": "0519c5ea825aa9215a403f13bf45a6cf",
+    "semantic_hash": "0519c5ea825aa9215a403f13bf45a6cf"
+  },
+  ".agents/skills/antislop-ui/SKILL.md": {
+    "mtime": 1790305143.1187449,
+    "seen": 1790782247.7082422,
+    "ast_hash": "58c990b79637dd6c0708722b8439b2e7",
+    "semantic_hash": "58c990b79637dd6c0708722b8439b2e7"
+  },
+  ".agents/skills/antislop/SKILL.md": {
+    "mtime": 1790305143.1186588,
+    "seen": 1790782247.7082427,
+    "ast_hash": "244465bb8134be39de6690c6d2672022",
+    "semantic_hash": "244465bb8134be39de6690c6d2672022"
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1790781740.03416,
+    "seen": 1790782247.7082431,
+    "ast_hash": "9b31786b637be3c13978bec4c2330752",
+    "semantic_hash": "9b31786b637be3c13978bec4c2330752"
+  },
+  ".claude/skills/antislop-code/SKILL.md": {
+    "mtime": 1790305143.1185267,
+    "seen": 1790782247.7082436,
+    "ast_hash": "5b8df92fc122a1655c8d3d947bbbbe3b",
+    "semantic_hash": "5b8df92fc122a1655c8d3d947bbbbe3b"
+  },
+  ".claude/skills/antislop-copywriting/SKILL.md": {
+    "mtime": 1790305143.1181738,
+    "seen": 1790782247.7082443,
+    "ast_hash": "35c54e34c1d99c848658e7eaf0d95693",
+    "semantic_hash": "35c54e34c1d99c848658e7eaf0d95693"
+  },
+  ".claude/skills/antislop-human/SKILL.md": {
+    "mtime": 1790305143.1182299,
+    "seen": 1790782247.7082448,
+    "ast_hash": "75ec299697211e6f3a690bc790c34597",
+    "semantic_hash": "75ec299697211e6f3a690bc790c34597"
+  },
+  ".claude/skills/antislop-layoutmobile/SKILL.md": {
+    "mtime": 1790305143.1183507,
+    "seen": 1790782247.7082453,
+    "ast_hash": "0519c5ea825aa9215a403f13bf45a6cf",
+    "semantic_hash": "0519c5ea825aa9215a403f13bf45a6cf"
+  },
+  ".claude/skills/antislop-ui/SKILL.md": {
+    "mtime": 1790305143.1181116,
+    "seen": 1790782247.7082458,
+    "ast_hash": "58c990b79637dd6c0708722b8439b2e7",
+    "semantic_hash": "58c990b79637dd6c0708722b8439b2e7"
+  },
+  ".claude/skills/antislop/SKILL.md": {
+    "mtime": 1790305143.1179438,
+    "seen": 1790782247.7082462,
+    "ast_hash": "244465bb8134be39de6690c6d2672022",
+    "semantic_hash": "244465bb8134be39de6690c6d2672022"
+  },
+  ".claude/skills/graphify/SKILL.md": {
+    "mtime": 1790781740.0338798,
+    "seen": 1790782247.7082467,
+    "ast_hash": "a93e8ad64464faa2abc9a0d42aeb0cab",
+    "semantic_hash": "a93e8ad64464faa2abc9a0d42aeb0cab"
+  },
+  ".claude/skills/graphify/references/add-watch.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082472,
+    "ast_hash": "c1f65eb4102ad515149303c7f296b718",
+    "semantic_hash": "c1f65eb4102ad515149303c7f296b718"
+  },
+  ".claude/skills/graphify/references/exports.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.708248,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": "9da2a2152e60a22f07f05fed5158f287"
+  },
+  ".claude/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082486,
+    "ast_hash": "42fef56a01698118f7fd722acdadea34",
+    "semantic_hash": "42fef56a01698118f7fd722acdadea34"
+  },
+  ".claude/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082489,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": "cde13df085e4c492aeb7ba298a996d0d"
+  },
+  ".claude/skills/graphify/references/hooks.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082493,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": "3f545db6ce646650bb9de588f5512a27"
+  },
+  ".claude/skills/graphify/references/query.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082498,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": "3c46f8ad006874260614ed8657d02307"
+  },
+  ".claude/skills/graphify/references/transcribe.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082503,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": "67b6a5fa6c0974e18f60db9f8932fbd8"
+  },
+  ".claude/skills/graphify/references/update.md": {
+    "mtime": 1790781711.2515986,
+    "seen": 1790782247.7082508,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": "9378bd03d56baaf78bd738ab3848f142"
+  },
+  "AGENTS.md": {
+    "mtime": 1790305143.119133,
+    "seen": 1790782247.7082515,
+    "ast_hash": "9d24d2e00b591ce5522378c56bcb25bb",
+    "semantic_hash": "9d24d2e00b591ce5522378c56bcb25bb"
+  },
+  "CLAUDE.md": {
+    "mtime": 1790781740.034504,
+    "seen": 1790782247.708252,
+    "ast_hash": "ae3fa317b1364be1e5c47a77667138b1",
+    "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
+  },
+  "index.html": {
+    "mtime": 1790670068.047078,
+    "seen": 1790782247.7082524,
+    "ast_hash": "86480eb5058205ef58918efcd8bba06b",
+    "semantic_hash": "86480eb5058205ef58918efcd8bba06b"
+  },
+  "assets/images/Doosan DNM-400II.png": {
+    "mtime": 1790566337.762119,
+    "seen": 1790782247.708253,
+    "ast_hash": "b613c85af37a8cc31b4598c52b8c9a05",
+    "semantic_hash": "b613c85af37a8cc31b4598c52b8c9a05"
+  },
+  "assets/images/Doosan DNM-4500.png": {
+    "mtime": 1790585579.5078971,
+    "seen": 1790782247.7082534,
+    "ast_hash": "c67896727df16285972523f944199054",
+    "semantic_hash": "c67896727df16285972523f944199054"
+  },
+  "assets/images/Doosan DNM-5700.png": {
+    "mtime": 1790585612.447972,
+    "seen": 1790782247.7082539,
+    "ast_hash": "1d4d1998fc88a8f58bf51ef7ef556c79",
+    "semantic_hash": "1d4d1998fc88a8f58bf51ef7ef556c79"
+  },
+  "assets/images/Mitutoyo CRYSTA-Apex V.jpg": {
+    "mtime": 1790570138.413584,
+    "seen": 1790782247.7082546,
+    "ast_hash": "0ec5e1fdd84bc60a20213d5e7a1b9da0",
+    "semantic_hash": "0ec5e1fdd84bc60a20213d5e7a1b9da0"
+  },
+  "assets/images/Mitutoyo Crysta-Plus m443.png": {
+    "mtime": 1790570922.4207327,
+    "seen": 1790782247.7082548,
+    "ast_hash": "a69b579a3a249b79d8f1a1034884598a",
+    "semantic_hash": "a69b579a3a249b79d8f1a1034884598a"
+  },
+  "assets/images/Neway VM-1150S.png": {
+    "mtime": 1790563127.212752,
+    "seen": 1790782247.7082553,
+    "ast_hash": "80b008af9511eb510a70afbc9b8a1c08",
+    "semantic_hash": "80b008af9511eb510a70afbc9b8a1c08"
+  },
+  "assets/images/SMTCL I5 M4.png": {
+    "mtime": 1790585652.1853583,
+    "seen": 1790782247.7082558,
+    "ast_hash": "ea1bc4f97d483b051ac9026b9ccc2d86",
+    "semantic_hash": "ea1bc4f97d483b051ac9026b9ccc2d86"
+  },
+  "assets/images/client-fim-piston.png": {
+    "mtime": 1790299586.9987273,
+    "seen": 1790782247.7082562,
+    "ast_hash": "dc048c6aee02f17cbde54230c91aba0b",
+    "semantic_hash": "dc048c6aee02f17cbde54230c91aba0b"
+  },
+  "assets/images/client-kyb.png": {
+    "mtime": 1790299587.0007272,
+    "seen": 1790782247.7082567,
+    "ast_hash": "d161d098789b6b94deeacaedae9687b2",
+    "semantic_hash": "d161d098789b6b94deeacaedae9687b2"
+  },
+  "assets/images/client-mtm.png": {
+    "mtime": 1790299586.9997272,
+    "seen": 1790782247.7082572,
+    "ast_hash": "d8678b870a13c0b16c26ac8906cb1a42",
+    "semantic_hash": "d8678b870a13c0b16c26ac8906cb1a42"
+  },
+  "assets/images/factory-front.jpg": {
+    "mtime": 1790299622.0001223,
+    "seen": 1790782247.7082577,
+    "ast_hash": "2bb8f2f9eabed99a1a09079cdc4996bc",
+    "semantic_hash": "2bb8f2f9eabed99a1a09079cdc4996bc"
+  },
+  "assets/images/inside.jpeg": {
+    "mtime": 1790558620.5396023,
+    "seen": 1790782247.7082584,
+    "ast_hash": "8300f2681aaa39bc68a0e092f2cd910e",
+    "semantic_hash": "8300f2681aaa39bc68a0e092f2cd910e"
+  },
+  "assets/images/iso-9001-badge.png": {
+    "mtime": 1790299586.9887276,
+    "seen": 1790782247.708259,
+    "ast_hash": "49cf30361fb02f30fc9dc38017347276",
+    "semantic_hash": "49cf30361fb02f30fc9dc38017347276"
+  },
+  "assets/images/lab-cmm-crysta-apex.jpg": {
+    "mtime": 1790319483.600561,
+    "seen": 1790782247.7082596,
+    "ast_hash": "a0b5dd80a22b80e31427ad69f1677d3e",
+    "semantic_hash": "a0b5dd80a22b80e31427ad69f1677d3e"
+  },
+  "assets/images/lab-cmm-device.jpg": {
+    "mtime": 1790299622.1359012,
+    "seen": 1790782247.70826,
+    "ast_hash": "a2b6693c7130d6bd36d377dd43f6a322",
+    "semantic_hash": "a2b6693c7130d6bd36d377dd43f6a322"
+  },
+  "assets/images/lab-cmm-operator.jpg": {
+    "mtime": 1790299622.0921206,
+    "seen": 1790782247.7082605,
+    "ast_hash": "5d54d40b1bcc752093e6768fd8fdc161",
+    "semantic_hash": "5d54d40b1bcc752093e6768fd8fdc161"
+  },
+  "assets/images/lab-tool-presetter.jpg": {
+    "mtime": 1790299622.1131203,
+    "seen": 1790782247.708261,
+    "ast_hash": "9729b764117a0d57d6868c0a13f01549",
+    "semantic_hash": "9729b764117a0d57d6868c0a13f01549"
+  },
+  "assets/images/logo.png": {
+    "mtime": 1790300855.128286,
+    "seen": 1790782247.7082617,
+    "ast_hash": "5001e5ff52f99cee4b3c583e093a24f6",
+    "semantic_hash": "5001e5ff52f99cee4b3c583e093a24f6"
+  },
+  "assets/images/machine-01.jpg": {
+    "mtime": 1790299622.0231218,
+    "seen": 1790782247.7082622,
+    "ast_hash": "8ba6776e8e0c41b356813c6af70574a7",
+    "semantic_hash": "8ba6776e8e0c41b356813c6af70574a7"
+  },
+  "assets/images/machine-02.jpg": {
+    "mtime": 1790299622.0471215,
+    "seen": 1790782247.7082627,
+    "ast_hash": "887ca6807994ae6fa82fc2774842a75e",
+    "semantic_hash": "887ca6807994ae6fa82fc2774842a75e"
+  },
+  "assets/images/machine-03.jpg": {
+    "mtime": 1790299622.070121,
+    "seen": 1790782247.7082632,
+    "ast_hash": "1a25bb6e1d5bf42e7b4e202028eb4a04",
+    "semantic_hash": "1a25bb6e1d5bf42e7b4e202028eb4a04"
+  },
+  "assets/images/outside.jpeg": {
+    "mtime": 1790558657.4907358,
+    "seen": 1790782247.7082636,
+    "ast_hash": "5149c6661d70cc8e255d69da95f6313a",
+    "semantic_hash": "5149c6661d70cc8e255d69da95f6313a"
+  },
+  "assets/images/product-01.jpg": {
+    "mtime": 1790299622.1551197,
+    "seen": 1790782247.708264,
+    "ast_hash": "32c48e171a18c3ecafe30ba85f34ca11",
+    "semantic_hash": "32c48e171a18c3ecafe30ba85f34ca11"
+  },
+  "assets/images/product-02.jpg": {
+    "mtime": 1790299622.1771193,
+    "seen": 1790782247.7082646,
+    "ast_hash": "c6f949a8d3db5cf18fb1f3ce2136434c",
+    "semantic_hash": "c6f949a8d3db5cf18fb1f3ce2136434c"
+  },
+  "assets/images/product-03.jpg": {
+    "mtime": 1790299622.1991189,
+    "seen": 1790782247.708265,
+    "ast_hash": "ea760679d9b0bcb1467944877bd4426a",
+    "semantic_hash": "ea760679d9b0bcb1467944877bd4426a"
+  },
+  "assets/images/product-04.jpg": {
+    "mtime": 1790299622.2201185,
+    "seen": 1790782247.7082655,
+    "ast_hash": "2a98e924f835166acb66a51dbc4a5ca4",
+    "semantic_hash": "2a98e924f835166acb66a51dbc4a5ca4"
+  },
+  "assets/images/product-05.jpg": {
+    "mtime": 1790299622.243118,
+    "seen": 1790782247.708266,
+    "ast_hash": "54f5d5082c21936597311f36a8c46076",
+    "semantic_hash": "54f5d5082c21936597311f36a8c46076"
+  },
+  "assets/images/product-06.jpg": {
+    "mtime": 1790299622.2641177,
+    "seen": 1790782247.7082665,
+    "ast_hash": "0e73677191d28aa029cb0941dda90131",
+    "semantic_hash": "0e73677191d28aa029cb0941dda90131"
+  },
+  "assets/images/product-07.jpg": {
+    "mtime": 1790299622.2865062,
+    "seen": 1790782247.7082667,
+    "ast_hash": "02a56b96a61946293a08dfe2664f4182",
+    "semantic_hash": "02a56b96a61946293a08dfe2664f4182"
+  },
+  "assets/images/product-08.jpg": {
+    "mtime": 1790299622.307117,
+    "seen": 1790782247.7082672,
+    "ast_hash": "f17d9484654902a0309c743563f85e8f",
+    "semantic_hash": "f17d9484654902a0309c743563f85e8f"
+  },
+  "assets/images/product-09.jpg": {
+    "mtime": 1790299622.3191168,
+    "seen": 1790782247.7082677,
+    "ast_hash": "93ed1d0169a2b15d3be9361e600cc8db",
+    "semantic_hash": "93ed1d0169a2b15d3be9361e600cc8db"
+  },
+  "assets/images/product-10.jpg": {
+    "mtime": 1790299622.3321166,
+    "seen": 1790782247.708271,
+    "ast_hash": "9582216db4d4b1d37d428ba46cadd2d9",
+    "semantic_hash": "9582216db4d4b1d37d428ba46cadd2d9"
+  },
+  "assets/images/surfcom1800g.webp": {
+    "mtime": 1790584332.3871305,
+    "seen": 1790782247.7082715,
+    "ast_hash": "4f3b30c3341b9a9b3865d02cf1b68cbb",
+    "semantic_hash": "4f3b30c3341b9a9b3865d02cf1b68cbb"
+  }
+}
