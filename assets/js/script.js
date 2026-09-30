@@ -148,6 +148,7 @@ if (produkTrack) {
   Array.from(produkTrack.children).forEach(card => {
     const clone = card.cloneNode(true);
     clone.setAttribute('aria-hidden', 'true');
+    clone.dataset.clone = 'true';
     const frame = clone.querySelector('[data-lightbox]');
     if (frame) {
       frame.removeAttribute('data-lightbox');
@@ -210,20 +211,25 @@ if (produkTrack) {
   produkTrack.addEventListener('pointerup', endProdukDrag);
   produkTrack.addEventListener('pointercancel', endProdukDrag);
 
-  // Category filter: click a badge to show only matching cards (originals
-  // and their clones share data-tag), "Semua" clears the filter.
+  // Category filter: click a badge to show only matching cards. Clones exist
+  // only to make the "Semua" loop wrap seamlessly, so any specific category
+  // hides them outright — otherwise its few originals would be immediately
+  // followed by their own clones, reading as duplicate photos.
   const produkFilters = document.querySelectorAll('[data-filter]');
   produkFilters.forEach(btn => {
     btn.addEventListener('click', () => {
       const filter = btn.dataset.filter;
+      const isAll = filter === 'all';
       produkFilters.forEach(b => {
         const active = b === btn;
         b.classList.toggle('is-active', active);
         b.setAttribute('aria-pressed', String(active));
       });
       Array.from(produkTrack.children).forEach(card => {
-        card.classList.toggle('is-filtered-out', filter !== 'all' && card.dataset.tag !== filter);
+        const hide = isAll ? false : (card.dataset.clone === 'true' || card.dataset.tag !== filter);
+        card.classList.toggle('is-filtered-out', hide);
       });
+      rolling = isAll && !reducedMotion;
       produkTrack.scrollLeft = 0;
     });
   });

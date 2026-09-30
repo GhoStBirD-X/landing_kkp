@@ -30,10 +30,10 @@
     "semantic_hash": "92f43d22cd6676e4b0947dfa88b1c52b"
   },
   "assets/js/script.js": {
-    "mtime": 1790783219.4106054,
-    "seen": 1790783223.0441732,
-    "ast_hash": "96d2c540d7f8e788b59606a5e13c5ffe",
-    "semantic_hash": ""
+    "mtime": 1790670132.2749867,
+    "seen": 1790782247.7082393,
+    "ast_hash": "fc104fc45d671c88a0629f81f66e483f",
+    "semantic_hash": "fc104fc45d671c88a0629f81f66e483f"
   },
   ".agents/skills/antislop-code/SKILL.md": {
     "mtime": 1790305143.119133,

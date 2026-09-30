@@ -1,7 +1,7 @@
 # Graph Report - landing_page  (2026-09-30)
 
 ## Corpus Check
-- 30 files · ~337,762 words
+- 64 files · ~337,714 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: (none) 4, .css 1)
 
@@ -9,11 +9,6 @@
 - 185 nodes · 203 edges · 48 communities (9 shown, 39 thin omitted)
 - Extraction: 97% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `8c923758`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - antislop Contrast MCP Server (claude)
@@ -67,25 +62,25 @@
 1. `/graphify Pipeline` - 17 edges
 2. `selftest()` - 6 edges
 3. `selftest()` - 6 edges
-4. `BFS/DFS Graph Traversal` - 6 edges
-5. `Site Footer` - 6 edges
+4. `antislop Core Skill (claude)` - 6 edges
+5. `BFS/DFS Graph Traversal` - 6 edges
 6. `Site Navbar` - 6 edges
-7. `antislop Core Skill (claude)` - 6 edges
+7. `Site Footer` - 6 edges
 8. `main()` - 5 edges
 9. `main()` - 5 edges
-10. `graphify Project Integration Rules` - 5 edges
+10. `antislop Core Skill (agents)` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `antislop Skill Reference (AGENTS.md)` --semantically_similar_to--> `antislop Skill Reference (CLAUDE.md)`  [INFERRED] [semantically similar]
   AGENTS.md → CLAUDE.md
-- `graphify Project Integration Rules` --references--> `/graphify explain Command`  [EXTRACTED]
-  CLAUDE.md → .claude/skills/graphify/references/query.md
-- `graphify Project Integration Rules` --references--> `/graphify path Command`  [EXTRACTED]
-  CLAUDE.md → .claude/skills/graphify/references/query.md
-- `graphify Project Integration Rules` --conceptually_related_to--> `/graphify Pipeline`  [INFERRED]
-  CLAUDE.md → .claude/skills/graphify/SKILL.md
 - `CLAUDE.md Graphify Pointer` --references--> `antislop Core Skill (claude)`  [AMBIGUOUS]
   .claude/CLAUDE.md → .claude/skills/antislop/SKILL.md
+- `graphify Project Integration Rules` --conceptually_related_to--> `/graphify Pipeline`  [INFERRED]
+  CLAUDE.md → .claude/skills/graphify/SKILL.md
+- `graphify Project Integration Rules` --references--> `/graphify path Command`  [EXTRACTED]
+  CLAUDE.md → .claude/skills/graphify/references/query.md
+- `graphify Project Integration Rules` --references--> `/graphify explain Command`  [EXTRACTED]
+  CLAUDE.md → .claude/skills/graphify/references/query.md
 
 ## Import Cycles
 - None detected.
