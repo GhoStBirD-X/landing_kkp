@@ -1,0 +1,20 @@
+#!/bin/sh
+# Auto cache-busting: stamps assets/js/script.js and assets/css/style.css
+# in index.html with a content hash so browsers (incl. mobile) always
+# fetch the latest version after a change, without manual "?v=" bumping.
+
+set -e
+
+JS_FILE="assets/js/script.js"
+CSS_FILE="assets/css/style.css"
+HTML_FILE="index.html"
+
+[ -f "$HTML_FILE" ] || exit 0
+
+JS_HASH=$(git hash-object "$JS_FILE" | cut -c1-8)
+CSS_HASH=$(git hash-object "$CSS_FILE" | cut -c1-8)
+
+sed -i -E "s#(assets/js/script\.js)(\?v=[a-zA-Z0-9]+)?#\1?v=${JS_HASH}#" "$HTML_FILE"
+sed -i -E "s#(assets/css/style\.css)(\?v=[a-zA-Z0-9]+)?#\1?v=${CSS_HASH}#" "$HTML_FILE"
+
+git add "$HTML_FILE"
