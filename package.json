@@ -1,0 +1,13 @@
+{
+  "name": "landing-kkp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Landing page PT Karya Komponen Presisi",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/tailwind-input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/tailwind-input.css -o ./assets/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

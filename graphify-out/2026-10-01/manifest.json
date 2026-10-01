@@ -30,9 +30,9 @@
     "semantic_hash": "92f43d22cd6676e4b0947dfa88b1c52b"
   },
   "assets/js/script.js": {
-    "mtime": 1790837847.8698456,
-    "seen": 1790838080.9922304,
-    "ast_hash": "d2ff0cdc362136d8490b1aec8f6e09a3",
+    "mtime": 1790842688.9525235,
+    "seen": 1790843535.2277296,
+    "ast_hash": "7d8f185dd6e3e5a624bc41f4d5d8facf",
     "semantic_hash": ""
   },
   ".agents/skills/antislop-code/SKILL.md": {
@@ -180,9 +180,9 @@
     "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
   },
   "index.html": {
-    "mtime": 1790837987.7970476,
-    "seen": 1790838080.9922493,
-    "ast_hash": "4cbf2a6e68f121abf97774aea5c90efd",
+    "mtime": 1790843190.624122,
+    "seen": 1790843535.2277627,
+    "ast_hash": "4d096adc904f389816dd7461efaa3dd6",
     "semantic_hash": ""
   },
   "assets/images/Mitutoyo CRYSTA-Apex V.jpg": {
@@ -375,6 +375,12 @@
     "mtime": 1790837890.3450549,
     "seen": 1790838080.9922519,
     "ast_hash": "a2cb3048fae95fec6ead959a7544eb25",
+    "semantic_hash": ""
+  },
+  "en.html": {
+    "mtime": 1790843418.5597858,
+    "seen": 1790843535.2277608,
+    "ast_hash": "37d3b2ee2c2296b9cf66c16dfc3f8036",
     "semantic_hash": ""
   }
 }

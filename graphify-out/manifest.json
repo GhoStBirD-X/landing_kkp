@@ -180,9 +180,9 @@
     "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
   },
   "index.html": {
-    "mtime": 1790843190.624122,
-    "seen": 1790843535.2277627,
-    "ast_hash": "4d096adc904f389816dd7461efaa3dd6",
+    "mtime": 1790853801.1630478,
+    "seen": 1790854056.8221986,
+    "ast_hash": "4ab15ba8b17e95641723e9722117d18d",
     "semantic_hash": ""
   },
   "assets/images/Mitutoyo CRYSTA-Apex V.jpg": {
@@ -192,52 +192,46 @@
     "semantic_hash": "0ec5e1fdd84bc60a20213d5e7a1b9da0"
   },
   "assets/images/client-fim-piston.png": {
-    "mtime": 1790299586.9987273,
-    "seen": 1790782247.7082562,
-    "ast_hash": "dc048c6aee02f17cbde54230c91aba0b",
-    "semantic_hash": "dc048c6aee02f17cbde54230c91aba0b"
+    "mtime": 1790853298.143357,
+    "seen": 1790854056.8222234,
+    "ast_hash": "b4de1146fe5df03a2bb51133b85d9bd9",
+    "semantic_hash": ""
   },
   "assets/images/client-kyb.png": {
-    "mtime": 1790815976.7400882,
-    "seen": 1790817975.2536407,
-    "ast_hash": "dce8e0b9a80a61605d6473bf8a254665",
+    "mtime": 1790853298.0343587,
+    "seen": 1790854056.8222256,
+    "ast_hash": "60c0663527d7890af9a6e66d98bbcb69",
     "semantic_hash": ""
   },
   "assets/images/client-mtm.png": {
-    "mtime": 1790299586.9997272,
-    "seen": 1790782247.7082572,
-    "ast_hash": "d8678b870a13c0b16c26ac8906cb1a42",
-    "semantic_hash": "d8678b870a13c0b16c26ac8906cb1a42"
+    "mtime": 1790853298.1813564,
+    "seen": 1790854056.822228,
+    "ast_hash": "5ccc18b36194dcfc160336b31af17796",
+    "semantic_hash": ""
   },
   "assets/images/factory-front.jpg": {
-    "mtime": 1790299622.0001223,
-    "seen": 1790782247.7082577,
-    "ast_hash": "2bb8f2f9eabed99a1a09079cdc4996bc",
-    "semantic_hash": "2bb8f2f9eabed99a1a09079cdc4996bc"
+    "mtime": 1790853730.7356203,
+    "seen": 1790854056.82223,
+    "ast_hash": "34b5eda2a6e6a4a4eef97d2b0a6cb02f",
+    "semantic_hash": ""
   },
   "assets/images/inside.jpeg": {
-    "mtime": 1790558620.5396023,
-    "seen": 1790782247.7082584,
-    "ast_hash": "8300f2681aaa39bc68a0e092f2cd910e",
-    "semantic_hash": "8300f2681aaa39bc68a0e092f2cd910e"
+    "mtime": 1790853730.6016223,
+    "seen": 1790854056.8222356,
+    "ast_hash": "9f6956120f503f8a74ca206472f287dd",
+    "semantic_hash": ""
   },
   "assets/images/iso-9001-badge.png": {
-    "mtime": 1790299586.9887276,
-    "seen": 1790782247.708259,
-    "ast_hash": "49cf30361fb02f30fc9dc38017347276",
-    "semantic_hash": "49cf30361fb02f30fc9dc38017347276"
+    "mtime": 1790853298.3143544,
+    "seen": 1790854056.8222373,
+    "ast_hash": "bc89541f0509889b10ba278a4947b994",
+    "semantic_hash": ""
   },
   "assets/images/lab-cmm-device.jpg": {
     "mtime": 1790299622.1359012,
     "seen": 1790782247.70826,
     "ast_hash": "a2b6693c7130d6bd36d377dd43f6a322",
     "semantic_hash": "a2b6693c7130d6bd36d377dd43f6a322"
-  },
-  "assets/images/lab-cmm-operator.jpg": {
-    "mtime": 1790299622.0921206,
-    "seen": 1790782247.7082605,
-    "ast_hash": "5d54d40b1bcc752093e6768fd8fdc161",
-    "semantic_hash": "5d54d40b1bcc752093e6768fd8fdc161"
   },
   "assets/images/lab-tool-presetter.jpg": {
     "mtime": 1790299622.1131203,
@@ -246,22 +240,16 @@
     "semantic_hash": "9729b764117a0d57d6868c0a13f01549"
   },
   "assets/images/logo.png": {
-    "mtime": 1790300855.128286,
-    "seen": 1790782247.7082617,
-    "ast_hash": "5001e5ff52f99cee4b3c583e093a24f6",
-    "semantic_hash": "5001e5ff52f99cee4b3c583e093a24f6"
-  },
-  "assets/images/machine-02.jpg": {
-    "mtime": 1790299622.0471215,
-    "seen": 1790782247.7082627,
-    "ast_hash": "887ca6807994ae6fa82fc2774842a75e",
-    "semantic_hash": "887ca6807994ae6fa82fc2774842a75e"
+    "mtime": 1790853298.3533537,
+    "seen": 1790854056.822245,
+    "ast_hash": "f2a6093d5036d5456f80dcb9d1c2a98d",
+    "semantic_hash": ""
   },
   "assets/images/outside.jpeg": {
-    "mtime": 1790558657.4907358,
-    "seen": 1790782247.7082636,
-    "ast_hash": "5149c6661d70cc8e255d69da95f6313a",
-    "semantic_hash": "5149c6661d70cc8e255d69da95f6313a"
+    "mtime": 1790853730.7086208,
+    "seen": 1790854056.8222463,
+    "ast_hash": "ce7437cce4925a07008c55c551f74223",
+    "semantic_hash": ""
   },
   "assets/images/product-01.jpg": {
     "mtime": 1790299622.1551197,
@@ -378,9 +366,33 @@
     "semantic_hash": ""
   },
   "en.html": {
-    "mtime": 1790843418.5597858,
-    "seen": 1790843535.2277608,
-    "ast_hash": "37d3b2ee2c2296b9cf66c16dfc3f8036",
+    "mtime": 1790853801.1643999,
+    "seen": 1790854056.822196,
+    "ast_hash": "142319aa28180a51e9de89ebc9302455",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1790853314.6341028,
+    "seen": 1790854056.82213,
+    "ast_hash": "b5e99513d5823cdac3ce8e64a15f9ca6",
+    "semantic_hash": ""
+  },
+  "tailwind.config.js": {
+    "mtime": 1790853318.7470396,
+    "seen": 1790854056.8221338,
+    "ast_hash": "e515133700c0c598cbae2f759ad4a68c",
+    "semantic_hash": ""
+  },
+  ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md": {
+    "mtime": 1790852314.6178024,
+    "seen": 1790854056.8221889,
+    "ast_hash": "7076ca5c82006fd70cc496e1db7d7916",
+    "semantic_hash": ""
+  },
+  "robots.txt": {
+    "mtime": 1790853464.6267781,
+    "seen": 1790854056.8222005,
+    "ast_hash": "857d8ef961c7122005aa5ecb738d5420",
     "semantic_hash": ""
   }
 }
