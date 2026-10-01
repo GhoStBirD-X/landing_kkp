@@ -70,8 +70,13 @@ document.querySelectorAll('[data-lightbox]').forEach(item => {
 let activeGroup = null;
 let activeIndex = 0;
 
+// Scoped to whatever is currently visible in that gallery group, so an
+// active produk category filter keeps next/prev inside the filtered set
+// instead of looping through every card.
+const getGroupItems = (group) => galleries[group].filter(item => !item.classList.contains('is-filtered-out'));
+
 const renderLightbox = () => {
-  const items = galleries[activeGroup];
+  const items = getGroupItems(activeGroup);
   const img = items[activeIndex].querySelector('img');
   lightboxImg.src = img.src;
   lightboxImg.alt = img.alt;
@@ -82,9 +87,9 @@ const renderLightbox = () => {
   lightboxNext.classList.toggle('hidden', !multi);
 };
 
-const openLightbox = (group, index) => {
+const openLightbox = (group, item) => {
   activeGroup = group;
-  activeIndex = index;
+  activeIndex = getGroupItems(group).indexOf(item);
   renderLightbox();
   lightbox.classList.remove('hidden-lb');
   lightbox.classList.remove('hidden');
@@ -94,7 +99,7 @@ const openLightbox = (group, index) => {
 document.querySelectorAll('[data-lightbox]').forEach(item => {
   const openThis = () => {
     const group = item.dataset.gallery || 'default';
-    openLightbox(group, galleries[group].indexOf(item));
+    openLightbox(group, item);
   };
   item.setAttribute('tabindex', '0');
   item.setAttribute('role', 'button');
@@ -110,12 +115,12 @@ document.querySelectorAll('[data-lightbox]').forEach(item => {
 });
 
 const showNext = () => {
-  const items = galleries[activeGroup];
+  const items = getGroupItems(activeGroup);
   activeIndex = (activeIndex + 1) % items.length;
   renderLightbox();
 };
 const showPrev = () => {
-  const items = galleries[activeGroup];
+  const items = getGroupItems(activeGroup);
   activeIndex = (activeIndex - 1 + items.length) % items.length;
   renderLightbox();
 };

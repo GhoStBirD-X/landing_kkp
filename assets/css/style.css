@@ -7,7 +7,7 @@
   --accent-light: #FF6259;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
 
 body {
   font-family: 'Inter', system-ui, sans-serif;

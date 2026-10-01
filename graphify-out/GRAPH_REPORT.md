@@ -1,27 +1,27 @@
 # Graph Report - landing_page  (2026-10-01)
 
 ## Corpus Check
-- 31 files · ~144,123 words
+- 31 files · ~123,791 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: (none) 4, .css 1)
 
 ## Summary
-- 180 nodes · 204 edges · 43 communities (10 shown, 33 thin omitted)
+- 179 nodes · 209 edges · 41 communities (10 shown, 31 thin omitted)
 - Extraction: 97% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `06d3817d`
+- Built from commit: `ba00f6ad`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - .agents/skills/antislop-human/contrast-mcp.py
 - graphify Advanced Features
-- Landing Page Interactivity (script.js)
-- antislop Contrast Checker CLI (agents)
+- script.js
+- .agents/skills/antislop-human/contrast-check.py
 - graphify Extraction Pipeline Rules
-- antislop Contrast Checker CLI (claude)
+- .claude/skills/antislop-human/contrast-check.py
 - Landing Page Site Sections
 - antislop Skill System (.claude)
 - antislop Skill System (.agents)
@@ -32,8 +32,6 @@
 - KYB Client Logo
 - MTM Client Logo
 - .claude/skills/antislop-human/contrast-mcp.py
-- Doosan DNM 4500 Machine
-- Doosan DNM 5700 Machine
 - Factory Front Entrance
 - CNC Shop Floor Interior
 - ISO 9001 Certification
@@ -67,7 +65,7 @@
 7. `antislop Core Skill (claude)` - 6 edges
 8. `main()` - 5 edges
 9. `main()` - 5 edges
-10. `graphify Project Integration Rules` - 5 edges
+10. `getGroupItems()` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `antislop Skill Reference (AGENTS.md)` --semantically_similar_to--> `antislop Skill Reference (CLAUDE.md)`  [INFERRED] [semantically similar]
@@ -91,7 +89,7 @@
 - **Site Navigation Structure** — index_navbar, index_footer, index_hero, index_tentang, index_fasilitas, index_produk, index_klien, index_kontak [EXTRACTED 1.00]
 - **Core Build-Extract-Query-Update Loop** — claude_skills_graphify_skill_step3_extract, claude_skills_graphify_references_extraction_spec_subagent_prompt, claude_skills_graphify_references_update_incremental_update, claude_skills_graphify_references_query_bfs_dfs_traversal [INFERRED 0.80]
 
-## Communities (43 total, 33 thin omitted)
+## Communities (41 total, 31 thin omitted)
 
 ### Community 0 - ".agents/skills/antislop-human/contrast-mcp.py"
 Cohesion: 0.26
@@ -101,20 +99,20 @@ Nodes (9): _channel(), check_contrast(), contrast_ratio(), _error(), main(), rel
 Cohesion: 0.10
 Nodes (21): graphify Project Integration Rules, /graphify add <url>, --watch Folder Watcher, FalkorDB Export / Push, MCP stdio Server, Neo4j Export / Push, Token Reduction Benchmark, Wiki Export (+13 more)
 
-### Community 2 - "Landing Page Interactivity (script.js)"
-Cohesion: 0.10
-Nodes (20): contactForm, counterObserver, counters, galleries, lightbox, lightboxCaption, lightboxCounter, lightboxImg (+12 more)
+### Community 2 - "script.js"
+Cohesion: 0.11
+Nodes (21): contactForm, counterObserver, counters, galleries, getGroupItems(), lightbox, lightboxCaption, lightboxCounter (+13 more)
 
-### Community 3 - "antislop Contrast Checker CLI (agents)"
-Cohesion: 0.23
+### Community 3 - ".agents/skills/antislop-human/contrast-check.py"
+Cohesion: 0.28
 Nodes (9): contrast_ratio(), linearize(), luminance(), main(), parse_hex(), parse_pairing(), parse_reference_rows(), reference_doc_path() (+1 more)
 
 ### Community 4 - "graphify Extraction Pipeline Rules"
 Cohesion: 0.14
 Nodes (11): Hyperedge Extraction Rule, Semantic Similarity Edge Rule, Extraction Subagent Prompt, Step 1: Ensure Graphify Installed, Step 2: Detect Files, Step 3: Extract Entities and Relationships, Step 4.5: Graph Health Check, Step 4: Build, Cluster, Analyze (+3 more)
 
-### Community 5 - "antislop Contrast Checker CLI (claude)"
-Cohesion: 0.28
+### Community 5 - ".claude/skills/antislop-human/contrast-check.py"
+Cohesion: 0.23
 Nodes (9): contrast_ratio(), linearize(), luminance(), main(), parse_hex(), parse_pairing(), parse_reference_rows(), reference_doc_path() (+1 more)
 
 ### Community 6 - "Landing Page Site Sections"
@@ -138,9 +136,9 @@ Nodes (9): _channel(), check_contrast(), contrast_ratio(), _error(), main(), rel
   .claude/CLAUDE.md · relation: references
 
 ## Knowledge Gaps
-- **69 isolated node(s):** `navbar`, `menuBtn`, `mobileMenu`, `revealEls`, `revealObserver` (+64 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 89 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **67 isolated node(s):** `navbar`, `menuBtn`, `mobileMenu`, `revealEls`, `revealObserver` (+62 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 87 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **31 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -152,10 +150,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Step 1: Ensure Graphify Installed` connect `graphify Extraction Pipeline Rules` to `graphify Advanced Features`?**
   _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **What connects `navbar`, `menuBtn`, `mobileMenu` to the rest of the system?**
-  _69 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _67 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `graphify Advanced Features` be split into smaller, more focused modules?**
   _Cohesion score 0.10144927536231885 - nodes in this community are weakly interconnected._
-- **Should `Landing Page Interactivity (script.js)` be split into smaller, more focused modules?**
-  _Cohesion score 0.09881422924901186 - nodes in this community are weakly interconnected._
+- **Should `script.js` be split into smaller, more focused modules?**
+  _Cohesion score 0.10869565217391304 - nodes in this community are weakly interconnected._
 - **Should `graphify Extraction Pipeline Rules` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
