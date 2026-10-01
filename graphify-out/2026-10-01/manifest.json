@@ -180,10 +180,16 @@
     "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
   },
   "index.html": {
-    "mtime": 1790817506.1405406,
-    "seen": 1790817975.2536223,
-    "ast_hash": "dc729a9dd2f5ec32744e43879077335a",
-    "semantic_hash": ""
+    "mtime": 1790670068.047078,
+    "seen": 1790782247.7082524,
+    "ast_hash": "86480eb5058205ef58918efcd8bba06b",
+    "semantic_hash": "86480eb5058205ef58918efcd8bba06b"
+  },
+  "assets/images/Doosan DNM-400II.png": {
+    "mtime": 1790566337.762119,
+    "seen": 1790782247.708253,
+    "ast_hash": "b613c85af37a8cc31b4598c52b8c9a05",
+    "semantic_hash": "b613c85af37a8cc31b4598c52b8c9a05"
   },
   "assets/images/Doosan DNM-4500.png": {
     "mtime": 1790585579.5078971,
@@ -203,6 +209,24 @@
     "ast_hash": "0ec5e1fdd84bc60a20213d5e7a1b9da0",
     "semantic_hash": "0ec5e1fdd84bc60a20213d5e7a1b9da0"
   },
+  "assets/images/Mitutoyo Crysta-Plus m443.png": {
+    "mtime": 1790570922.4207327,
+    "seen": 1790782247.7082548,
+    "ast_hash": "a69b579a3a249b79d8f1a1034884598a",
+    "semantic_hash": "a69b579a3a249b79d8f1a1034884598a"
+  },
+  "assets/images/Neway VM-1150S.png": {
+    "mtime": 1790563127.212752,
+    "seen": 1790782247.7082553,
+    "ast_hash": "80b008af9511eb510a70afbc9b8a1c08",
+    "semantic_hash": "80b008af9511eb510a70afbc9b8a1c08"
+  },
+  "assets/images/SMTCL I5 M4.png": {
+    "mtime": 1790585652.1853583,
+    "seen": 1790782247.7082558,
+    "ast_hash": "ea1bc4f97d483b051ac9026b9ccc2d86",
+    "semantic_hash": "ea1bc4f97d483b051ac9026b9ccc2d86"
+  },
   "assets/images/client-fim-piston.png": {
     "mtime": 1790299586.9987273,
     "seen": 1790782247.7082562,
@@ -210,10 +234,10 @@
     "semantic_hash": "dc048c6aee02f17cbde54230c91aba0b"
   },
   "assets/images/client-kyb.png": {
-    "mtime": 1790815976.7400882,
-    "seen": 1790817975.2536407,
-    "ast_hash": "dce8e0b9a80a61605d6473bf8a254665",
-    "semantic_hash": ""
+    "mtime": 1790299587.0007272,
+    "seen": 1790782247.7082567,
+    "ast_hash": "d161d098789b6b94deeacaedae9687b2",
+    "semantic_hash": "d161d098789b6b94deeacaedae9687b2"
   },
   "assets/images/client-mtm.png": {
     "mtime": 1790299586.9997272,
@@ -239,6 +263,12 @@
     "ast_hash": "49cf30361fb02f30fc9dc38017347276",
     "semantic_hash": "49cf30361fb02f30fc9dc38017347276"
   },
+  "assets/images/lab-cmm-crysta-apex.jpg": {
+    "mtime": 1790319483.600561,
+    "seen": 1790782247.7082596,
+    "ast_hash": "a0b5dd80a22b80e31427ad69f1677d3e",
+    "semantic_hash": "a0b5dd80a22b80e31427ad69f1677d3e"
+  },
   "assets/images/lab-cmm-device.jpg": {
     "mtime": 1790299622.1359012,
     "seen": 1790782247.70826,
@@ -263,11 +293,23 @@
     "ast_hash": "5001e5ff52f99cee4b3c583e093a24f6",
     "semantic_hash": "5001e5ff52f99cee4b3c583e093a24f6"
   },
+  "assets/images/machine-01.jpg": {
+    "mtime": 1790299622.0231218,
+    "seen": 1790782247.7082622,
+    "ast_hash": "8ba6776e8e0c41b356813c6af70574a7",
+    "semantic_hash": "8ba6776e8e0c41b356813c6af70574a7"
+  },
   "assets/images/machine-02.jpg": {
     "mtime": 1790299622.0471215,
     "seen": 1790782247.7082627,
     "ast_hash": "887ca6807994ae6fa82fc2774842a75e",
     "semantic_hash": "887ca6807994ae6fa82fc2774842a75e"
+  },
+  "assets/images/machine-03.jpg": {
+    "mtime": 1790299622.070121,
+    "seen": 1790782247.7082632,
+    "ast_hash": "1a25bb6e1d5bf42e7b4e202028eb4a04",
+    "semantic_hash": "1a25bb6e1d5bf42e7b4e202028eb4a04"
   },
   "assets/images/outside.jpeg": {
     "mtime": 1790558657.4907358,
@@ -340,41 +382,5 @@
     "seen": 1790782247.7082715,
     "ast_hash": "4f3b30c3341b9a9b3865d02cf1b68cbb",
     "semantic_hash": "4f3b30c3341b9a9b3865d02cf1b68cbb"
-  },
-  ".githooks/pre-commit": {
-    "mtime": 1790783844.7665915,
-    "seen": 1790817975.2535684,
-    "ast_hash": "e12f4c4aaabb0b72fa0a676f114df892",
-    "semantic_hash": ""
-  },
-  "assets/images/Doosan DNM-400II.webp": {
-    "mtime": 1790815824.8125753,
-    "seen": 1790817975.2536242,
-    "ast_hash": "88a439a05ea5a66298bbd6fb2515c061",
-    "semantic_hash": ""
-  },
-  "assets/images/Mitutoyo Crysta-Plus m443.webp": {
-    "mtime": 1790815825.5195625,
-    "seen": 1790817975.2536323,
-    "ast_hash": "df92d640db7cce8ca1c3461a86dbbd3f",
-    "semantic_hash": ""
-  },
-  "assets/images/Neway VM-1150S.webp": {
-    "mtime": 1790815825.1395693,
-    "seen": 1790817975.2536342,
-    "ast_hash": "516f0f4aa31a392d3f08659b86683b91",
-    "semantic_hash": ""
-  },
-  "assets/images/SMTCL I5 M4.webp": {
-    "mtime": 1790815825.8005571,
-    "seen": 1790817975.2536364,
-    "ast_hash": "f6995b1a49bad6a45275fa6f9d12f265",
-    "semantic_hash": ""
-  },
-  "assets/images/favicon.png": {
-    "mtime": 1790817335.2816072,
-    "seen": 1790817975.2536466,
-    "ast_hash": "28f3227d29c77e8e4888e7b25a3fdb06",
-    "semantic_hash": ""
   }
 }
