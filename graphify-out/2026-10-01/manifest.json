@@ -30,9 +30,9 @@
     "semantic_hash": "92f43d22cd6676e4b0947dfa88b1c52b"
   },
   "assets/js/script.js": {
-    "mtime": 1790783219.4106054,
-    "seen": 1790783223.0441732,
-    "ast_hash": "96d2c540d7f8e788b59606a5e13c5ffe",
+    "mtime": 1790837847.8698456,
+    "seen": 1790838080.9922304,
+    "ast_hash": "d2ff0cdc362136d8490b1aec8f6e09a3",
     "semantic_hash": ""
   },
   ".agents/skills/antislop-code/SKILL.md": {
@@ -180,22 +180,10 @@
     "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
   },
   "index.html": {
-    "mtime": 1790824010.7665384,
-    "seen": 1790824218.779938,
-    "ast_hash": "e3d298c66e998ae670fe7f04b1438553",
+    "mtime": 1790837987.7970476,
+    "seen": 1790838080.9922493,
+    "ast_hash": "4cbf2a6e68f121abf97774aea5c90efd",
     "semantic_hash": ""
-  },
-  "assets/images/Doosan DNM-4500.png": {
-    "mtime": 1790585579.5078971,
-    "seen": 1790782247.7082534,
-    "ast_hash": "c67896727df16285972523f944199054",
-    "semantic_hash": "c67896727df16285972523f944199054"
-  },
-  "assets/images/Doosan DNM-5700.png": {
-    "mtime": 1790585612.447972,
-    "seen": 1790782247.7082539,
-    "ast_hash": "1d4d1998fc88a8f58bf51ef7ef556c79",
-    "semantic_hash": "1d4d1998fc88a8f58bf51ef7ef556c79"
   },
   "assets/images/Mitutoyo CRYSTA-Apex V.jpg": {
     "mtime": 1790570138.413584,
@@ -375,6 +363,18 @@
     "mtime": 1790817335.2816072,
     "seen": 1790817975.2536466,
     "ast_hash": "28f3227d29c77e8e4888e7b25a3fdb06",
+    "semantic_hash": ""
+  },
+  "assets/images/Doosan DNM-4500.webp": {
+    "mtime": 1790837890.2840588,
+    "seen": 1790838080.9922512,
+    "ast_hash": "9400d89d1f51006a4e41d5d304743392",
+    "semantic_hash": ""
+  },
+  "assets/images/Doosan DNM-5700.webp": {
+    "mtime": 1790837890.3450549,
+    "seen": 1790838080.9922519,
+    "ast_hash": "a2cb3048fae95fec6ead959a7544eb25",
     "semantic_hash": ""
   }
 }

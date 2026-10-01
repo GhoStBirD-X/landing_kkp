@@ -1,3 +1,23 @@
+// Shared UI strings so script.js works for both index.html (id) and en.html (en)
+// without duplicating the whole file.
+const UI_LANG = document.documentElement.lang === 'en' ? 'en' : 'id';
+const UI_TEXT = {
+  id: {
+    viewPhoto: 'Lihat foto',
+    sending: 'Mengirim...',
+    success: 'Terima kasih, pesan Anda sudah terkirim. Kami akan segera menghubungi Anda.',
+    error: 'Pesan gagal terkirim. Silakan coba lagi atau hubungi kami lewat email.',
+    networkError: 'Pesan gagal terkirim. Periksa koneksi internet Anda dan coba lagi.'
+  },
+  en: {
+    viewPhoto: 'View photo',
+    sending: 'Sending...',
+    success: 'Thank you, your message has been sent. We will get back to you shortly.',
+    error: 'Message failed to send. Please try again or email us directly.',
+    networkError: 'Message failed to send. Check your internet connection and try again.'
+  }
+}[UI_LANG];
+
 // Sticky navbar background on scroll
 const navbar = document.getElementById('navbar');
 const onScroll = () => {
@@ -104,7 +124,7 @@ document.querySelectorAll('[data-lightbox]').forEach(item => {
   item.setAttribute('tabindex', '0');
   item.setAttribute('role', 'button');
   const label = item.querySelector('img')?.alt;
-  if (label) item.setAttribute('aria-label', `Lihat foto: ${label}`);
+  if (label) item.setAttribute('aria-label', `${UI_TEXT.viewPhoto}: ${label}`);
   item.addEventListener('click', openThis);
   item.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
@@ -248,11 +268,12 @@ const contactForm = document.getElementById('contact-form');
 if (contactForm) {
   const submitBtn = contactForm.querySelector('button[type="submit"]');
   const status = document.getElementById('cf-status');
+  const defaultBtnText = submitBtn.textContent;
 
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Mengirim...';
+    submitBtn.textContent = UI_TEXT.sending;
     status.textContent = '';
     status.className = 'text-sm text-center';
 
@@ -265,20 +286,20 @@ if (contactForm) {
 
       if (response.ok) {
         contactForm.reset();
-        status.textContent = 'Terima kasih, pesan Anda sudah terkirim. Kami akan segera menghubungi Anda.';
+        status.textContent = UI_TEXT.success;
         status.classList.add('text-emerald-600');
       } else {
         const data = await response.json().catch(() => null);
         const detail = data?.errors?.map(err => err.message).join(', ');
-        status.textContent = detail || 'Pesan gagal terkirim. Silakan coba lagi atau hubungi kami lewat email.';
+        status.textContent = detail || UI_TEXT.error;
         status.classList.add('text-accent');
       }
     } catch {
-      status.textContent = 'Pesan gagal terkirim. Periksa koneksi internet Anda dan coba lagi.';
+      status.textContent = UI_TEXT.networkError;
       status.classList.add('text-accent');
     } finally {
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Kirim Pesan';
+      submitBtn.textContent = defaultBtnText;
     }
   });
 }

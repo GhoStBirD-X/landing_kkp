@@ -310,7 +310,7 @@
       "file_type": "code",
       "norm_label": "closelightbox()",
       "source_file": "assets/js/script.js",
-      "source_location": "L128"
+      "source_location": "L148"
     },
     {
       "id": "assets_js_script_getgroupitems",
@@ -322,7 +322,7 @@
       "file_type": "code",
       "norm_label": "getgroupitems()",
       "source_file": "assets/js/script.js",
-      "source_location": "L76"
+      "source_location": "L96"
     },
     {
       "id": "assets_js_script_onscroll",
@@ -334,7 +334,7 @@
       "file_type": "code",
       "norm_label": "onscroll()",
       "source_file": "assets/js/script.js",
-      "source_location": "L3"
+      "source_location": "L23"
     },
     {
       "id": "assets_js_script_openlightbox",
@@ -346,7 +346,7 @@
       "file_type": "code",
       "norm_label": "openlightbox()",
       "source_file": "assets/js/script.js",
-      "source_location": "L90"
+      "source_location": "L110"
     },
     {
       "id": "assets_js_script_renderlightbox",
@@ -358,7 +358,7 @@
       "file_type": "code",
       "norm_label": "renderlightbox()",
       "source_file": "assets/js/script.js",
-      "source_location": "L78"
+      "source_location": "L98"
     },
     {
       "id": "assets_js_script_shownext",
@@ -370,7 +370,7 @@
       "file_type": "code",
       "norm_label": "shownext()",
       "source_file": "assets/js/script.js",
-      "source_location": "L117"
+      "source_location": "L137"
     },
     {
       "id": "assets_js_script_showprev",
@@ -382,7 +382,7 @@
       "file_type": "code",
       "norm_label": "showprev()",
       "source_file": "assets/js/script.js",
-      "source_location": "L122"
+      "source_location": "L142"
     },
     {
       "id": "agents_skills_antislop_human_contrast_check_contrast_ratio",
@@ -664,7 +664,7 @@
       "file_type": "code",
       "norm_label": "contactform",
       "source_file": "assets/js/script.js",
-      "source_location": "L247"
+      "source_location": "L267"
     },
     {
       "id": "assets_js_script_counterobserver",
@@ -675,7 +675,7 @@
       "file_type": "code",
       "norm_label": "counterobserver",
       "source_file": "assets/js/script.js",
-      "source_location": "L35"
+      "source_location": "L55"
     },
     {
       "id": "assets_js_script_counters",
@@ -686,7 +686,7 @@
       "file_type": "code",
       "norm_label": "counters",
       "source_file": "assets/js/script.js",
-      "source_location": "L34"
+      "source_location": "L54"
     },
     {
       "id": "assets_js_script_galleries",
@@ -697,7 +697,7 @@
       "file_type": "code",
       "norm_label": "galleries",
       "source_file": "assets/js/script.js",
-      "source_location": "L64"
+      "source_location": "L84"
     },
     {
       "id": "assets_js_script_lightbox",
@@ -708,7 +708,7 @@
       "file_type": "code",
       "norm_label": "lightbox",
       "source_file": "assets/js/script.js",
-      "source_location": "L57"
+      "source_location": "L77"
     },
     {
       "id": "assets_js_script_lightboxcaption",
@@ -719,7 +719,7 @@
       "file_type": "code",
       "norm_label": "lightboxcaption",
       "source_file": "assets/js/script.js",
-      "source_location": "L59"
+      "source_location": "L79"
     },
     {
       "id": "assets_js_script_lightboxcounter",
@@ -730,7 +730,7 @@
       "file_type": "code",
       "norm_label": "lightboxcounter",
       "source_file": "assets/js/script.js",
-      "source_location": "L60"
+      "source_location": "L80"
     },
     {
       "id": "assets_js_script_lightboximg",
@@ -741,7 +741,7 @@
       "file_type": "code",
       "norm_label": "lightboximg",
       "source_file": "assets/js/script.js",
-      "source_location": "L58"
+      "source_location": "L78"
     },
     {
       "id": "assets_js_script_lightboxnext",
@@ -752,7 +752,7 @@
       "file_type": "code",
       "norm_label": "lightboxnext",
       "source_file": "assets/js/script.js",
-      "source_location": "L62"
+      "source_location": "L82"
     },
     {
       "id": "assets_js_script_lightboxprev",
@@ -763,7 +763,7 @@
       "file_type": "code",
       "norm_label": "lightboxprev",
       "source_file": "assets/js/script.js",
-      "source_location": "L61"
+      "source_location": "L81"
     },
     {
       "id": "assets_js_script_menubtn",
@@ -774,7 +774,7 @@
       "file_type": "code",
       "norm_label": "menubtn",
       "source_file": "assets/js/script.js",
-      "source_location": "L11"
+      "source_location": "L31"
     },
     {
       "id": "assets_js_script_mobilemenu",
@@ -785,7 +785,7 @@
       "file_type": "code",
       "norm_label": "mobilemenu",
       "source_file": "assets/js/script.js",
-      "source_location": "L12"
+      "source_location": "L32"
     },
     {
       "id": "assets_js_script_navbar",
@@ -796,7 +796,7 @@
       "file_type": "code",
       "norm_label": "navbar",
       "source_file": "assets/js/script.js",
-      "source_location": "L2"
+      "source_location": "L22"
     },
     {
       "id": "assets_js_script_produktrack",
@@ -807,7 +807,7 @@
       "file_type": "code",
       "norm_label": "produktrack",
       "source_file": "assets/js/script.js",
-      "source_location": "L147"
+      "source_location": "L167"
     },
     {
       "id": "assets_js_script_revealels",
@@ -818,7 +818,7 @@
       "file_type": "code",
       "norm_label": "revealels",
       "source_file": "assets/js/script.js",
-      "source_location": "L22"
+      "source_location": "L42"
     },
     {
       "id": "assets_js_script_revealobserver",
@@ -829,7 +829,7 @@
       "file_type": "code",
       "norm_label": "revealobserver",
       "source_file": "assets/js/script.js",
-      "source_location": "L23"
+      "source_location": "L43"
     },
     {
       "id": "githooks_pre_commit",
@@ -2745,7 +2745,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L92",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
@@ -2757,7 +2757,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L93",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -2769,7 +2769,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L79",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -2781,7 +2781,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L118",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
@@ -2793,7 +2793,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L120",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -2805,7 +2805,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L123",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -2817,7 +2817,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L125",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -3038,6 +3038,18 @@
     },
     {
       "source": "assets_js_script",
+      "target": "assets_js_script_openlightbox",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "assets/js/script.js",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_script",
       "target": "assets_js_script_shownext",
       "relation": "contains",
       "_origin": "ast",
@@ -3045,7 +3057,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L117",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
@@ -3057,7 +3069,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L122",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
@@ -3069,19 +3081,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "assets/js/script.js",
-      "source_location": "L128",
-      "weight": 1.0
-    },
-    {
-      "source": "assets_js_script",
-      "target": "assets_js_script_openlightbox",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "assets/js/script.js",
-      "source_location": "L90",
+      "source_location": "L148",
       "weight": 1.0
     },
     {
@@ -3404,35 +3404,13 @@
     },
     {
       "source": "assets_js_script",
-      "target": "assets_js_script_menubtn",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "assets/js/script.js",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "assets_js_script",
-      "target": "assets_js_script_mobilemenu",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "assets/js/script.js",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "assets_js_script",
       "target": "assets_js_script_produktrack",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L147",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -3443,29 +3421,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "assets_js_script",
-      "target": "assets_js_script_revealels",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "assets/js/script.js",
       "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "assets_js_script",
-      "target": "assets_js_script_revealobserver",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "assets/js/script.js",
-      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -3476,7 +3432,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L247",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_script",
+      "target": "assets_js_script_menubtn",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/js/script.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_script",
+      "target": "assets_js_script_mobilemenu",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/js/script.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_script",
+      "target": "assets_js_script_revealels",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/js/script.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_js_script",
+      "target": "assets_js_script_revealobserver",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "assets/js/script.js",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -3487,7 +3487,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L34",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -3498,7 +3498,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L35",
+      "source_location": "L55",
       "weight": 1.0
     },
     {
@@ -3509,7 +3509,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L57",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -3520,7 +3520,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L58",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -3531,7 +3531,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L59",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -3542,7 +3542,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L60",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -3553,7 +3553,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L61",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -3564,7 +3564,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L62",
+      "source_location": "L82",
       "weight": 1.0
     },
     {
@@ -3575,7 +3575,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L64",
+      "source_location": "L84",
       "weight": 1.0
     },
     {
@@ -3586,7 +3586,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L76",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -3597,7 +3597,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "assets/js/script.js",
-      "source_location": "L78",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -3906,7 +3906,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "assets/js/script.js",
-      "source_location": "L7",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -4958,5 +4958,5 @@
       "source_file": ".claude/skills/graphify/SKILL.md"
     }
   ],
-  "built_at_commit": "ba00f6ad067c7b59707ed84a1f168e8083013639"
+  "built_at_commit": "0780ac6b8fd8609705e60c333d76fe06fa6ef6e3"
 }
