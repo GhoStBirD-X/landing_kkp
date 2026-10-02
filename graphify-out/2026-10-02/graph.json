@@ -645,6 +645,18 @@
       "source_location": "L2"
     },
     {
+      "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01",
+      "label": "qa-report-landingpage-2026-10-01.md",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Laporan QA \u2014 Landing Page PT Karya Komponen Presisi",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "qa-report-landingpage-2026-10-01.md",
+      "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
+      "source_location": "L1"
+    },
+    {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_1_seluruh_tampilan_situs_bisa_rusak_total_jika_satu_cdn_gagal_dimuat",
       "label": "1. Seluruh tampilan situs bisa rusak total jika satu CDN gagal dimuat",
       "_origin": "ast",
@@ -654,7 +666,7 @@
       "node_kind": "heading",
       "norm_label": "1. seluruh tampilan situs bisa rusak total jika satu cdn gagal dimuat",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L31"
+      "source_location": "L29"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_2_waktu_tampil_konten_utama_lcp_sangat_lambat_8_2_detik",
@@ -666,7 +678,7 @@
       "node_kind": "heading",
       "norm_label": "2. waktu tampil konten utama (lcp) sangat lambat: 8.2 detik",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L49"
+      "source_location": "L47"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_3_gambar_logo_kecil_dengan_ukuran_file_sangat_besar_buang_buang_kuota_waktu_loading",
@@ -678,7 +690,7 @@
       "node_kind": "heading",
       "norm_label": "3. gambar logo kecil dengan ukuran file sangat besar \u2014 buang-buang kuota & waktu loading",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L63"
+      "source_location": "L61"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_4_tidak_ada_preview_saat_link_dibagikan_ke_whatsapp_linkedin_facebook",
@@ -690,7 +702,7 @@
       "node_kind": "heading",
       "norm_label": "4. tidak ada preview saat link dibagikan ke whatsapp/linkedin/facebook",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L77"
+      "source_location": "L75"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_5_tidak_ada_data_terstruktur_json_ld_untuk_google_business_knowledge_panel",
@@ -702,7 +714,7 @@
       "node_kind": "heading",
       "norm_label": "5. tidak ada data terstruktur (json-ld) untuk google business/knowledge panel",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L83"
+      "source_location": "L81"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_6_tidak_ada_robots_txt_maupun_sitemap_xml",
@@ -714,7 +726,7 @@
       "node_kind": "heading",
       "norm_label": "6. tidak ada `robots.txt` maupun `sitemap.xml`",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L87"
+      "source_location": "L85"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_7_title_tag_sedikit_melebihi_batas_tampil_di_hasil_pencarian",
@@ -726,7 +738,7 @@
       "node_kind": "heading",
       "norm_label": "7. title tag sedikit melebihi batas tampil di hasil pencarian",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L91"
+      "source_location": "L89"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_8_file_company_profile_ppt_41_gambar_1_file_ppt_tidak_terpakai_oleh_situs",
@@ -738,7 +750,7 @@
       "node_kind": "heading",
       "norm_label": "8. file company profile ppt (41 gambar + 1 file `.ppt`) tidak terpakai oleh situs",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L99"
+      "source_location": "L97"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_9_dua_foto_di_bagian_tentang_sudah_dinonaktifkan_dikomentari_bukan_dihapus",
@@ -750,7 +762,7 @@
       "node_kind": "heading",
       "norm_label": "9. dua foto di bagian \"tentang\" sudah dinonaktifkan (dikomentari), bukan dihapus",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L103"
+      "source_location": "L101"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_catatan_kebersihan_repo_tidak_berdampak_ke_pengunjung_situs",
@@ -762,7 +774,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udfe2 catatan kebersihan repo (tidak berdampak ke pengunjung situs)",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L97"
+      "source_location": "L95"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_laporan_qa_landing_page_pt_karya_komponen_presisi",
@@ -786,7 +798,7 @@
       "node_kind": "heading",
       "norm_label": "prioritas yang disarankan (bukan perbaikan \u2014 hanya urutan jika ingin ditindaklanjuti)",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L127"
+      "source_location": "L125"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_ringkasan_cepat",
@@ -798,7 +810,7 @@
       "node_kind": "heading",
       "norm_label": "ringkasan cepat",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L11"
+      "source_location": "L9"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_temuan_kritis",
@@ -810,7 +822,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd34 temuan kritis",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L29"
+      "source_location": "L27"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_temuan_menengah_seo_social_sharing",
@@ -822,7 +834,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udfe1 temuan menengah \u2014 seo & social sharing",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L75"
+      "source_location": "L73"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_temuan_performa_lighthouse",
@@ -834,7 +846,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udfe0 temuan performa (lighthouse)",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L47"
+      "source_location": "L45"
     },
     {
       "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01_yang_sudah_diuji_dan_berfungsi_baik_bukti_bukan_asumsi",
@@ -846,7 +858,7 @@
       "node_kind": "heading",
       "norm_label": "\u2705 yang sudah diuji dan berfungsi baik (bukti, bukan asumsi)",
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L109"
+      "source_location": "L107"
     },
     {
       "id": "package",
@@ -1206,174 +1218,6 @@
       "file_type": "code",
       "norm_label": "tailwind.config.js",
       "source_file": "tailwind.config.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01",
-      "label": "PERBAIKAN-2026-10-01.md",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "perbaikan-2026-10-01.md",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_1_ketergantungan_pada_tailwind_cdn_dihapus",
-      "label": "\ud83d\udd34 #1 \u2014 Ketergantungan pada Tailwind CDN \u2192 dihapus",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd34 #1 \u2014 ketergantungan pada tailwind cdn \u2192 dihapus",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L5"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_2_performa_lambat_lcp_8_2_detik_turun_ke_5_8_detik",
-      "label": "\ud83d\udfe0 #2 \u2014 Performa lambat (LCP 8.2 detik) \u2192 turun ke 5.8 detik",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe0 #2 \u2014 performa lambat (lcp 8.2 detik) \u2192 turun ke 5.8 detik",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L11"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_3_logo_badge_kegedean_dikompresi_ke_ukuran_tampil_sebenarnya",
-      "label": "\ud83d\udfe0 #3 \u2014 Logo & badge kegedean \u2192 dikompresi ke ukuran tampil sebenarnya",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe0 #3 \u2014 logo & badge kegedean \u2192 dikompresi ke ukuran tampil sebenarnya",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L30"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_4_open_graph_twitter_card_ditambahkan",
-      "label": "\ud83d\udfe1 #4 \u2014 Open Graph / Twitter Card \u2192 ditambahkan",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe1 #4 \u2014 open graph / twitter card \u2192 ditambahkan",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L46"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_5_data_terstruktur_json_ld_ditambahkan",
-      "label": "\ud83d\udfe1 #5 \u2014 Data terstruktur (JSON-LD) \u2192 ditambahkan",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe1 #5 \u2014 data terstruktur (json-ld) \u2192 ditambahkan",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L50"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_6_robots_txt_sitemap_xml_ditambahkan",
-      "label": "\ud83d\udfe1 #6 \u2014 `robots.txt` & `sitemap.xml` \u2192 ditambahkan",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe1 #6 \u2014 `robots.txt` & `sitemap.xml` \u2192 ditambahkan",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L54"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_7_title_meta_description_kepanjangan_dipersingkat",
-      "label": "\ud83d\udfe1 #7 \u2014 Title & meta description kepanjangan \u2192 dipersingkat",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe1 #7 \u2014 title & meta description kepanjangan \u2192 dipersingkat",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L58"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_8_file_ppt_tak_terpakai_dihapus_sesuai_konfirmasi_user",
-      "label": "\ud83d\udfe2 #8 \u2014 File PPT tak terpakai \u2192 dihapus (sesuai konfirmasi user)",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe2 #8 \u2014 file ppt tak terpakai \u2192 dihapus (sesuai konfirmasi user)",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L68"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_9_gambar_mati_dikomentari_dihapus",
-      "label": "\ud83d\udfe2 #9 \u2014 Gambar mati (dikomentari) \u2192 dihapus",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udfe2 #9 \u2014 gambar mati (dikomentari) \u2192 dihapus",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L72"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_file_yang_perlu_di_build_ulang_jika_html_diubah_lagi",
-      "label": "File yang perlu di-build ulang jika HTML diubah lagi",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "file yang perlu di-build ulang jika html diubah lagi",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L86"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "label": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "rincian perbaikan \u2014 landing page pt karya komponen presisi",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "gstack_qa_reports_perbaikan_2026_10_01_verifikasi_yang_dijalankan_setelah_semua_perbaikan",
-      "label": "Verifikasi yang dijalankan setelah semua perbaikan",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "verifikasi yang dijalankan setelah semua perbaikan",
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L78"
-    },
-    {
-      "id": "gstack_qa_reports_qa_report_landingpage_2026_10_01",
-      "label": "qa-report-landingpage-2026-10-01.md",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Rincian Perbaikan \u2014 Landing Page PT Karya Komponen Presisi",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "qa-report-landingpage-2026-10-01.md",
-      "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
       "source_location": "L1"
     },
     {
@@ -2968,23 +2812,11 @@
       "type": "external"
     },
     {
-      "id": "sys",
-      "label": "sys",
-      "_origin": "semantic",
-      "community": 17,
-      "community_name": ".claude/skills/antislop-human/contrast-mcp.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "sys",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "os",
       "label": "os",
       "_origin": "semantic",
-      "community": 3,
-      "community_name": ".agents/skills/antislop-human/contrast-check.py",
+      "community": 5,
+      "community_name": ".claude/skills/antislop-human/contrast-check.py",
       "external": true,
       "file_type": "concept",
       "norm_label": "os",
@@ -3000,6 +2832,18 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "re",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "sys",
+      "label": "sys",
+      "_origin": "semantic",
+      "community": 5,
+      "community_name": ".claude/skills/antislop-human/contrast-check.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "sys",
       "source_file": "",
       "type": "external"
     }
@@ -4307,138 +4151,6 @@
       "weight": 1.0
     },
     {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_2_performa_lambat_lcp_8_2_detik_turun_ke_5_8_detik",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_3_logo_badge_kegedean_dikompresi_ke_ukuran_tampil_sebenarnya",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L30",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_4_open_graph_twitter_card_ditambahkan",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L46",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_1_ketergantungan_pada_tailwind_cdn_dihapus",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_5_data_terstruktur_json_ld_ditambahkan",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L50",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_6_robots_txt_sitemap_xml_ditambahkan",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L54",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_7_title_meta_description_kepanjangan_dipersingkat",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L58",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_8_file_ppt_tak_terpakai_dihapus_sesuai_konfirmasi_user",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L68",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_9_gambar_mati_dikomentari_dihapus",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L72",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_verifikasi_yang_dijalankan_setelah_semua_perbaikan",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L78",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_perbaikan_2026_10_01_rincian_perbaikan_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01_file_yang_perlu_di_build_ulang_jika_html_diubah_lagi",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/PERBAIKAN-2026-10-01.md",
-      "source_location": "L86",
-      "weight": 1.0
-    },
-    {
       "source": "gstack_qa_reports_qa_report_landingpage_2026_10_01",
       "target": "gstack_qa_reports_qa_report_landingpage_2026_10_01_laporan_qa_landing_page_pt_karya_komponen_presisi",
       "relation": "contains",
@@ -4457,7 +4169,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L103",
+      "source_location": "L101",
       "weight": 1.0
     },
     {
@@ -4468,7 +4180,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L99",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -4479,18 +4191,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_qa_report_landingpage_2026_10_01_laporan_qa_landing_page_pt_karya_komponen_presisi",
-      "target": "gstack_qa_reports_qa_report_landingpage_2026_10_01_ringkasan_cepat",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L11",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -4501,7 +4202,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L127",
+      "source_location": "L125",
       "weight": 1.0
     },
     {
@@ -4512,7 +4213,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L29",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -4523,7 +4224,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L47",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -4534,7 +4235,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L75",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "gstack_qa_reports_qa_report_landingpage_2026_10_01_laporan_qa_landing_page_pt_karya_komponen_presisi",
+      "target": "gstack_qa_reports_qa_report_landingpage_2026_10_01_ringkasan_cepat",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -4545,7 +4257,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L97",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -4556,7 +4268,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L31",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -4567,7 +4279,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L77",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -4578,7 +4290,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L83",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -4589,7 +4301,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L87",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -4600,7 +4312,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L91",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -4611,7 +4323,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L49",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -4622,7 +4334,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L63",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -4819,17 +4531,6 @@
       "confidence_score": 1.0,
       "source_file": ".claude/skills/antislop-human/contrast-mcp.py",
       "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "gstack_qa_reports_qa_report_landingpage_2026_10_01",
-      "target": "gstack_qa_reports_perbaikan_2026_10_01",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md",
-      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -5893,5 +5594,5 @@
       "source_file": ".claude/skills/graphify/SKILL.md"
     }
   ],
-  "built_at_commit": "b10c25b473d9a0c1681721ce0c7a671ca61dc67f"
+  "built_at_commit": "43d8483f99655ff220032622ab6a146e201593cb"
 }

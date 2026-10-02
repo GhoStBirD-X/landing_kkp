@@ -1,17 +1,17 @@
-# Graph Report - landing_page  (2026-10-02)
+# Graph Report - landing_page  (2026-10-01)
 
 ## Corpus Check
-- 35 files · ~106,779 words
+- 34 files · ~105,749 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 8 file(s) not represented in the graph (top: (none) 4, .css 3, .xml 1)
 
 ## Summary
-- 221 nodes · 250 edges · 43 communities (13 shown, 30 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.85)
+- 208 nodes · 237 edges · 42 communities (12 shown, 30 thin omitted)
+- Extraction: 97% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b10c25b4`
+- Built from commit: `43d8483f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,7 +40,6 @@
 - Rational Tool Presetter
 - Fowler Tool Presetter
 - KKP Inovasi Company Logo
-- Rincian Perbaikan — Landing Page PT Karya Komponen Presisi
 - Mitutoyo CRYSTA-Apex V CMM
 - Warehouse Exterior
 - Fork Bracket Product
@@ -58,14 +57,14 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `/graphify Pipeline` - 17 edges
-2. `Rincian Perbaikan — Landing Page PT Karya Komponen Presisi` - 12 edges
-3. `Laporan QA — Landing Page PT Karya Komponen Presisi` - 8 edges
+2. `Laporan QA — Landing Page PT Karya Komponen Presisi` - 8 edges
+3. `selftest()` - 6 edges
 4. `selftest()` - 6 edges
-5. `selftest()` - 6 edges
-6. `BFS/DFS Graph Traversal` - 6 edges
-7. `Site Footer` - 6 edges
-8. `Site Navbar` - 6 edges
-9. `antislop Core Skill (claude)` - 6 edges
+5. `BFS/DFS Graph Traversal` - 6 edges
+6. `Site Footer` - 6 edges
+7. `Site Navbar` - 6 edges
+8. `antislop Core Skill (claude)` - 6 edges
+9. `main()` - 5 edges
 10. `main()` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -90,7 +89,7 @@
 - **Site Navigation Structure** — index_navbar, index_footer, index_hero, index_tentang, index_fasilitas, index_produk, index_klien, index_kontak [EXTRACTED 1.00]
 - **Core Build-Extract-Query-Update Loop** — claude_skills_graphify_skill_step3_extract, claude_skills_graphify_references_extraction_spec_subagent_prompt, claude_skills_graphify_references_update_incremental_update, claude_skills_graphify_references_query_bfs_dfs_traversal [INFERRED 0.80]
 
-## Communities (43 total, 30 thin omitted)
+## Communities (42 total, 30 thin omitted)
 
 ### Community 0 - ".agents/skills/antislop-human/contrast-mcp.py"
 Cohesion: 0.33
@@ -105,7 +104,7 @@ Cohesion: 0.11
 Nodes (21): contactForm, counterObserver, counters, galleries, getGroupItems(), lightbox, lightboxCaption, lightboxCounter (+13 more)
 
 ### Community 3 - ".agents/skills/antislop-human/contrast-check.py"
-Cohesion: 0.25
+Cohesion: 0.28
 Nodes (9): contrast_ratio(), linearize(), luminance(), main(), parse_hex(), parse_pairing(), parse_reference_rows(), reference_doc_path() (+1 more)
 
 ### Community 4 - "graphify Extraction Pipeline Rules"
@@ -113,7 +112,7 @@ Cohesion: 0.14
 Nodes (11): Hyperedge Extraction Rule, Semantic Similarity Edge Rule, Extraction Subagent Prompt, Step 1: Ensure Graphify Installed, Step 2: Detect Files, Step 3: Extract Entities and Relationships, Step 4.5: Graph Health Check, Step 4: Build, Cluster, Analyze (+3 more)
 
 ### Community 5 - ".claude/skills/antislop-human/contrast-check.py"
-Cohesion: 0.25
+Cohesion: 0.21
 Nodes (9): contrast_ratio(), linearize(), luminance(), main(), parse_hex(), parse_pairing(), parse_reference_rows(), reference_doc_path() (+1 more)
 
 ### Community 6 - "Landing Page Site Sections"
@@ -129,28 +128,24 @@ Cohesion: 0.33
 Nodes (9): antislop-code Skill (agents), antislop-copywriting Skill (agents), antislop-human Skill (agents), Contrast Checker (agents), antislop-layoutmobile Skill (agents), antislop Core Skill (agents), Delivery Gate (agents), Three Dials: Energy/Rhythm/Motion (agents) (+1 more)
 
 ### Community 17 - ".claude/skills/antislop-human/contrast-mcp.py"
-Cohesion: 0.26
+Cohesion: 0.29
 Nodes (9): _channel(), check_contrast(), contrast_ratio(), _error(), main(), relative_luminance(), _reply(), _send() (+1 more)
 
 ### Community 18 - "Laporan QA — Landing Page PT Karya Komponen Presisi"
-Cohesion: 0.12
+Cohesion: 0.11
 Nodes (17): 1. Seluruh tampilan situs bisa rusak total jika satu CDN gagal dimuat, 2. Waktu tampil konten utama (LCP) sangat lambat: 8.2 detik, 3. Gambar logo kecil dengan ukuran file sangat besar — buang-buang kuota & waktu loading, 4. Tidak ada preview saat link dibagikan ke WhatsApp/LinkedIn/Facebook, 5. Tidak ada data terstruktur (JSON-LD) untuk Google Business/Knowledge Panel, 6. Tidak ada `robots.txt` maupun `sitemap.xml`, 7. Title tag sedikit melebihi batas tampil di hasil pencarian, 8. File company profile PPT (41 gambar + 1 file `.ppt`) tidak terpakai oleh situs (+9 more)
 
 ### Community 19 - "package.json"
 Cohesion: 0.18
 Nodes (10): description, devDependencies, tailwindcss, name, private, scripts, build:css, watch:css (+2 more)
 
-### Community 28 - "Rincian Perbaikan — Landing Page PT Karya Komponen Presisi"
-Cohesion: 0.14
-Nodes (12): 🔴 #1 — Ketergantungan pada Tailwind CDN → dihapus, 🟠 #2 — Performa lambat (LCP 8.2 detik) → turun ke 5.8 detik, 🟠 #3 — Logo & badge kegedean → dikompresi ke ukuran tampil sebenarnya, 🟡 #4 — Open Graph / Twitter Card → ditambahkan, 🟡 #5 — Data terstruktur (JSON-LD) → ditambahkan, 🟡 #6 — `robots.txt` & `sitemap.xml` → ditambahkan, 🟡 #7 — Title & meta description kepanjangan → dipersingkat, 🟢 #8 — File PPT tak terpakai → dihapus (sesuai konfirmasi user) (+4 more)
-
 ## Ambiguous Edges - Review These
 - `CLAUDE.md Graphify Pointer` → `antislop Core Skill (claude)`  [AMBIGUOUS]
   .claude/CLAUDE.md · relation: references
 
 ## Knowledge Gaps
-- **96 isolated node(s):** `navbar`, `menuBtn`, `mobileMenu`, `revealEls`, `revealObserver` (+91 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 118 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **85 isolated node(s):** `navbar`, `menuBtn`, `mobileMenu`, `revealEls`, `revealObserver` (+80 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 108 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
@@ -159,11 +154,11 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `CLAUDE.md Graphify Pointer` and `antislop Core Skill (claude)`?**
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
 - **Why does `/graphify Pipeline` connect `graphify Advanced Features` to `graphify Extraction Pipeline Rules`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `Laporan QA — Landing Page PT Karya Komponen Presisi` connect `Laporan QA — Landing Page PT Karya Komponen Presisi` to `Rincian Perbaikan — Landing Page PT Karya Komponen Presisi`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `Step 1: Ensure Graphify Installed` connect `graphify Extraction Pipeline Rules` to `graphify Advanced Features`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `navbar`, `menuBtn`, `mobileMenu` to the rest of the system?**
-  _96 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _85 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `graphify Advanced Features` be split into smaller, more focused modules?**
   _Cohesion score 0.10144927536231885 - nodes in this community are weakly interconnected._
 - **Should `script.js` be split into smaller, more focused modules?**

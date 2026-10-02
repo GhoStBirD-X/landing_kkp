@@ -180,9 +180,9 @@
     "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
   },
   "index.html": {
-    "mtime": 1790905489.364677,
-    "seen": 1790905612.0027483,
-    "ast_hash": "a8997ec5a7de069884f062cfe636a572",
+    "mtime": 1790853801.1630478,
+    "seen": 1790854056.8221986,
+    "ast_hash": "4ab15ba8b17e95641723e9722117d18d",
     "semantic_hash": ""
   },
   "assets/images/Mitutoyo CRYSTA-Apex V.jpg": {
@@ -366,9 +366,9 @@
     "semantic_hash": ""
   },
   "en.html": {
-    "mtime": 1790905515.125276,
-    "seen": 1790905612.0027452,
-    "ast_hash": "11c39aa02f1ca08b34c9009ec3be9a7b",
+    "mtime": 1790853801.1643999,
+    "seen": 1790854056.822196,
+    "ast_hash": "142319aa28180a51e9de89ebc9302455",
     "semantic_hash": ""
   },
   "package.json": {
@@ -384,21 +384,15 @@
     "semantic_hash": ""
   },
   ".gstack/qa-reports/qa-report-landingpage-2026-10-01.md": {
-    "mtime": 1790854077.4690838,
-    "seen": 1790905612.0027359,
-    "ast_hash": "c5430947aa6139e6235406740c66471f",
+    "mtime": 1790852314.6178024,
+    "seen": 1790854056.8221889,
+    "ast_hash": "7076ca5c82006fd70cc496e1db7d7916",
     "semantic_hash": ""
   },
   "robots.txt": {
     "mtime": 1790853464.6267781,
     "seen": 1790854056.8222005,
     "ast_hash": "857d8ef961c7122005aa5ecb738d5420",
-    "semantic_hash": ""
-  },
-  ".gstack/qa-reports/PERBAIKAN-2026-10-01.md": {
-    "mtime": 1790854108.486585,
-    "seen": 1790905612.002731,
-    "ast_hash": "2796604ed0adebc8810497cbf64d7e85",
     "semantic_hash": ""
   }
 }
