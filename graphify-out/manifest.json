@@ -180,9 +180,9 @@
     "semantic_hash": "ae3fa317b1364be1e5c47a77667138b1"
   },
   "index.html": {
-    "mtime": 1790905489.364677,
-    "seen": 1790905612.0027483,
-    "ast_hash": "a8997ec5a7de069884f062cfe636a572",
+    "mtime": 1790921241.3502252,
+    "seen": 1790921276.2357824,
+    "ast_hash": "392aeea8b903a6c7cbe9e61a671c59db",
     "semantic_hash": ""
   },
   "assets/images/Mitutoyo CRYSTA-Apex V.jpg": {
@@ -366,9 +366,9 @@
     "semantic_hash": ""
   },
   "en.html": {
-    "mtime": 1790905515.125276,
-    "seen": 1790905612.0027452,
-    "ast_hash": "11c39aa02f1ca08b34c9009ec3be9a7b",
+    "mtime": 1790921251.3311758,
+    "seen": 1790921276.2357788,
+    "ast_hash": "e34ca631e9d1720f15d906ef347c3ffe",
     "semantic_hash": ""
   },
   "package.json": {
@@ -399,6 +399,30 @@
     "mtime": 1790854108.486585,
     "seen": 1790905612.002731,
     "ast_hash": "2796604ed0adebc8810497cbf64d7e85",
+    "semantic_hash": ""
+  },
+  "assets/images/Mitutoyo CRYSTA-Apex V.webp": {
+    "mtime": 1790921108.2541754,
+    "seen": 1790921276.2358,
+    "ast_hash": "93d8653e827d220d2402998336ba14fb",
+    "semantic_hash": ""
+  },
+  "assets/images/factory-front.webp": {
+    "mtime": 1790921108.0781782,
+    "seen": 1790921276.2358224,
+    "ast_hash": "f2771cccbf49fe44e9dc82e807cfb066",
+    "semantic_hash": ""
+  },
+  "assets/images/inside.webp": {
+    "mtime": 1790921107.659185,
+    "seen": 1790921276.235831,
+    "ast_hash": "6572cf08870a1a18c0839b8257395c14",
+    "semantic_hash": ""
+  },
+  "assets/images/outside.webp": {
+    "mtime": 1790921107.9851797,
+    "seen": 1790921276.2358477,
+    "ast_hash": "d4db04938c427970f35fd5d8e960549f",
     "semantic_hash": ""
   }
 }
